@@ -16,7 +16,7 @@ These materials are designed with the idea that the student needing them has a w
   - [Functional Group Analysis](#functional-group-analysis)
   - [Development Operations](#software-engineering)
   - [Principal Component Analysis](#principal-component-analysis)
-  - [Cheminformatics](#chemfinformatics)
+  - [Cheminformatics](#cheminformatics)
   - [Molecular Dynamics](#molecular-dynamics)
   - [Machine Learning](#machine-learning)
   - [Force Fields](#force-fields)
