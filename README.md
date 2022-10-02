@@ -39,6 +39,7 @@ These materials are designed with the idea that the student needing them has a w
 
 ## Development Operations
 
+- [Python Package Distribution for Scientific Publications](https://sharifsuliman1.medium.com/a-tutorial-for-releasing-a-python-package-for-scientific-publication-f6817c91cf45) - A Comprehensive Overview for releasing a Python Package for Scientific Publication.
 - [Monitoring your System with Python](https://sharifsuliman1.medium.com/take-a-glance-at-your-server-c5070c8d1dd1) - Using Python Glances to Monitor Your System
 - [Modern Github Badges](https://sharifsuliman1.medium.com/modern-github-badges-for-open-source-repositories-fb4dceeb368a) - Modern Github Badges For Open Source Repositories
 - [Automating Cheminformatics Workflows](https://sharifsuliman1.medium.com/automating-cheminformatics-with-apache-airflow-step-1-preparing-smiles-transformations-on-large-f007ec614e51) - Automating Cheminformatics with Apache Airflow — Step 1: Preparing SMILES Transformations on Large Scale
@@ -55,6 +56,10 @@ These materials are designed with the idea that the student needing them has a w
 
 ## Cheminformatics
 
+- [Understanding Drug Likeness Filters](https://sharifsuliman1.medium.com/understanding-drug-likeness-filters-with-rdkit-and-exploring-the-withdrawn-database-ebd6b8b2921e) - Understanding drug-likeness filters with RDKit and exploring the WITHDRAWN database.
+- [Preparing Chemical Data](https://sharifsuliman1.medium.com/preparing-chemical-data-in-5-minutes-with-cocktail-shaker-rdkit-and-pandas-6fb9b512d958) - Preparing Chemical Data in 5 minutes with Cocktail Shaker, RDKit, and Pandas
+- [Peptide Fingerprints](https://sharifsuliman1.medium.com/trends-in-fingerprint-matching-of-peptides-using-tanimoto-rdkit-and-cocktail-shaker-4d6eb50021d4) - Trends in fingerprint matching of peptides using Tanimoto, RDKit, and Cocktail Shaker.
+- [SMILES to PDF](https://sharifsuliman1.medium.com/smiles-to-pdf-and-back-again-can-we-improve-publication-mining-4f682cc6a2c6) - Converting a List of SMILES to PDF form.
 - [Morgan Fingerprinting](https://sharifsuliman1.medium.com/understanding-morgan-f70186b172f6) - Understanding Morgan and converting the chemical structure to a number.
 - [Chemical Reference Databases](https://sharifsuliman1.medium.com/using-the-minifrag-database-to-validate-your-smarts-strings-c3bb46ecacd8) - Using the MiniFrag Database to validate your SMARTS strings
 - [Variations of SMILES](https://sharifsuliman1.medium.com/validating-smiles-with-rdkit-pysmiles-molvs-and-partialsmiles-5b65e800235f) - Validating SMILES with RDKit, PySMILES, MolVS, and PartialSMILES
@@ -63,13 +68,17 @@ These materials are designed with the idea that the student needing them has a w
 - 
 ## Molecular Dynamics
 
+- [Converting Coordinate Files](https://sharifsuliman1.medium.com/converting-gro-files-to-pdb-using-python-bbc11931375d) - Converting GRO files to PDB using Python
+- [Calculating End to End Distance Between Atoms](https://sharifsuliman1.medium.com/calculating-the-end-to-end-distance-of-two-atoms-using-mdanalysis-ab7269e4bb5b) - Calculating the End-to-End distance of two atoms using MDAnalysis
 - [Monitoring your Simulation](https://sharifsuliman1.medium.com/using-python-to-check-molecular-dynamic-simulation-log-files-8ab128ca54f8) - Using python to check molecular dynamic simulation log files.
 - [Coming to Convergence](https://medium.com/p/how-i-was-checking-to-tell-if-there-was-convergence-in-my-simulations-8b324934483e) - How I was checking to tell if there was convergence in my simulations.
 - [Controlling Tumbling](https://sharifsuliman1.medium.com/controlling-tumbling-effects-in-a-molecular-dynamics-simulation-f082513fd0a9) - Controlling Tumbling Effects in a Molecular Dynamics Simulation.
 - [Calculating Dipole Moments](https://sharifsuliman1.medium.com/analyzing-dipole-moments-in-molecular-dynamics-simulations-4c76ce3ba5b0) - Analyzing Dipole Moments in Molecular Dynamics Simulations
+- [Multiprocessing for Hydrogen Bonds](https://sharifsuliman1.medium.com/exploring-multi-processing-for-exhaustive-hydrogen-bonding-analysis-using-mdanalysis-and-futures-661839079126) - Exploring Multi-Processing for Exhaustive Hydrogen Bonding Analysis using MDAnalysis and Futures
 
 ## Machine Learning
 
+- [Creating an RNN to Convert IUPAC to SMILES](https://sharifsuliman1.medium.com/exploring-bridging-cheminformatic-languages-between-machines-and-humans-using-ai-part-1-8899ca363979) - Exploring bridging cheminformatic languages between machines and humans using AI — Part 1
 - [Probability Density](https://sharifsuliman1.medium.com/how-to-take-the-probability-density-of-any-set-of-numbers-and-make-an-analysis-cca1abdce222) - How to take the probability density of any set of numbers and make an analysis.
 - [Exploring Chemical Knowledge Graph](https://sharifsuliman1.medium.com/exploring-graph-networks-for-iupac-nomenclature-and-smiles-380c870737fc) - Exploring Graph Networks for IUPAC Nomenclature and SMILES.
 - [Using Sunbursting to Detect Chemical Diversity](https://sharifsuliman1.medium.com/using-iupac-with-globalchem-sunbursts-to-determine-chemical-diversity-for-a-list-of-smiles-with-db844a59abe6) - Using IUPAC with GlobalChem Sunbursts to determine Chemical Diversity for a list of SMILES with Plotly.
@@ -80,6 +89,7 @@ These materials are designed with the idea that the student needing them has a w
 - 
 ## Force Fields
 
+- [What are Force Fields](https://sharifsuliman1.medium.com/what-are-force-fields-a-coder-perspective-into-charmm-2a3c03fb684f) - What are force fields? A coder perspective into CHARMM.
 - [What are Atom Types](https://sharifsuliman1.medium.com/understanding-atom-types-part-1-the-philosophy-ca8c42d333fe) - How to take the probability density of any set of numbers and make an analysis.
 - [Atom Types and SMILES to CurlySMILES](https://sharifsuliman1.medium.com/inclusion-of-atom-types-in-force-fields-to-produce-mixed-cxsmiles-cxsmarts-curlysmiles-832d40ff70d) - Inclusion of Atom Types in Force Fields to produce mixed CXSMILES, CXSMARTS, CurlySMILES
 - [Mixing CGenFF Atom Types with SMILES](https://sharifsuliman1.medium.com/mixing-cgenff-atom-types-to-rdkit-mol2svg-function-and-visualizing-4cd29c2d7122) - Mixing CGenFF Atom Types to RDKit Mol2SVG Function and Visualizing
