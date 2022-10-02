@@ -11,10 +11,14 @@ These materials are designed with the idea that the student needing them has a w
 
 ## Table of contents
 
-- [Cheminformatics](#cheminformatics-)
+- [Teaching Material](#teaching-material-)
   - [Lecture Series](#lecture-series)
+  - [Functional Group Analysis](#functional-group-analysis)
+  - [Development Operations](#software-engineering)
   - [Principal Component Analysis](#principal-component-analysis)
+  - [Cheminformatics](#chemfinformatics)
   - [Machine Learning](#machine-learning)
+  - [Force Fields](#force-fields)
   - [Electronic Record Compliance](#compliance)
   - [Miscellaenous Resources](#miscellaenous-resources)
   - [See Also](#see-also)
@@ -27,13 +31,43 @@ These materials are designed with the idea that the student needing them has a w
 
 - [Lecture 001](https://sharifsuliman1.medium.com/lecture-001-how-to-write-smiles-introduction-to-converting-skeletal-diagrams-to-1-d-data-string-feb40752b5d7) - How to Write SMILES: Introduction to Converting Skeletal Diagrams to 1-D Data String Representation. 
 
+## Functional Group Analysis 
+
+- [Azridine](https://sharifsuliman1.medium.com/aziridine-3e62828df2c2) - Aziridine
+- [Organophosphorous Nerve Toxic Agents](https://sharifsuliman1.medium.com/selection-of-functional-groups-for-chemical-nerve-toxic-agents-novichok-ab1c5a47b918) - Selection of Functional Groups for Chemical Nerve Toxic Agents — Novichok
+
+## Development Operations
+
+- [Modern Github Badges](https://sharifsuliman1.medium.com/modern-github-badges-for-open-source-repositories-fb4dceeb368a) - Modern Github Badges For Open Source Repositories
+- [Automating Cheminformatics Workflows](https://sharifsuliman1.medium.com/automating-cheminformatics-with-apache-airflow-step-1-preparing-smiles-transformations-on-large-f007ec614e51) - Automating Cheminformatics with Apache Airflow — Step 1: Preparing SMILES Transformations on Large Scale
+- [Downloading the ZincDB Rapidly](https://sharifsuliman1.medium.com/downloading-the-zinc-database-rapidly-with-aria2-6be150db6617) - Downloading the Zinc Database Rapidly with Aria2
+- [Useful Github Action Bots](https://sharifsuliman1.medium.com/useful-github-actions-bots-to-regulate-my-python-package-c1f02032024d) - Useful Github Actions Bots to Regulate my Python Package
+- [Debugging Distribution Bugs](https://sharifsuliman1.medium.com/debugging-file-encoding-and-file-path-distribution-bugs-for-globalchem-with-github-action-bots-62ca53827686) - Debugging File Encoding and File Path Distribution Bugs for GlobalChem with Github Action Bots.
+
 ## Principal Component Analysis
 
+- [PCA on PihKal Book](https://sharifsuliman1.medium.com/using-principal-component-analysis-to-distinct-aromatic-and-non-aromatic-compounds-and-identify-dd01bcebdb47) - Principal Component Analysis on the list of SMILES from Pihkal using GlobalChem and IUPAC
+- [Using PCA to Detect Aromaticity](https://sharifsuliman1.medium.com/using-principal-component-analysis-to-distinct-aromatic-and-non-aromatic-compounds-and-identify-dd01bcebdb47) - Using Principal Component Analysis to distinct Aromatic and Non-Aromatic Compounds and Identify Common Scaffolds for Diverse Communities using SMILES and GlobalChem.
+- [PCA on Cannabis Sativa](https://sharifsuliman1.medium.com/understanding-what-is-inside-of-cannabis-sativa-using-principal-component-analysis-with-global-chem-84c8038f07a8) - Understanding what is inside of Cannabis Sativa using Principal Component Analysis with Global-Chem
 - [PCA on Cannabis Sativa and Oral Contraceptives](https://sharifsuliman1.medium.com/mixing-global-chem-nodes-cannabis-sativa-and-oral-contraceptives-for-principal-component-analysis-5e51097e6218) - Mixing Global-Chem Nodes: Cannabis Sativa and Oral Contraceptives for Principal Component Analysis.
+
+## Cheminformatics
+
+- [Reference Databases](https://sharifsuliman1.medium.com/using-the-minifrag-database-to-validate-your-smarts-strings-c3bb46ecacd8) - Using the MiniFrag Database to validate your SMARTS strings
+- [Variations of SMILES](https://sharifsuliman1.medium.com/validating-smiles-with-rdkit-pysmiles-molvs-and-partialsmiles-5b65e800235f) - Validating SMILES with RDKit, PySMILES, MolVS, and PartialSMILES
+- [Protonating SMILES](https://sharifsuliman1.medium.com/protonating-your-smiles-strings-over-a-range-of-ph-for-small-molecules-and-proteins-78a472a66943) - Protonating your SMILES strings over a range of pH for Small Molecules and Proteins
 
 ## Machine Learning
 
+- [Using Sunbursting to Detect Chemical Diversity](https://sharifsuliman1.medium.com/using-iupac-with-globalchem-sunbursts-to-determine-chemical-diversity-for-a-list-of-smiles-with-db844a59abe6) - Using IUPAC with GlobalChem Sunbursts to determine Chemical Diversity for a list of SMILES with Plotly.
+- [Sunbursting FDA Colour Additive Lists](https://sharifsuliman1.medium.com/sunbursting-the-fda-colour-additive-7-lists-through-toxalerts-globalchem-nodes-added-95ffe8ff9e37) - Sunbursting the FDA Colour Additive 7 Lists through ToxAlerts. 
+- [Decoding Fingerprints to Chemical Name](https://sharifsuliman1.medium.com/decoding-fingerprints-to-iupac-natural-chemical-names-aff31d058a10) - Decoding Fingerprints to IUPAC/Natural Chemical Names
 - [Levenshtein Distance Applied on Common Chemical & IUPAC Names](https://sharifsuliman1.medium.com/applying-levenshtein-distance-on-iupac-preferred-names-in-globalchem-for-natural-language-1569a727ca13) - Applying Levenshtein distance on IUPAC/Preferred names in GlobalChem for Natural Language Processing.
+
+## Force Fields
+
+- [Atom Types and SMILES to CurlySMILES](https://sharifsuliman1.medium.com/inclusion-of-atom-types-in-force-fields-to-produce-mixed-cxsmiles-cxsmarts-curlysmiles-832d40ff70d) - Inclusion of Atom Types in Force Fields to produce mixed CXSMILES, CXSMARTS, CurlySMILES
+- [Mixing CGenFF Atom Types with SMILES](https://sharifsuliman1.medium.com/mixing-cgenff-atom-types-to-rdkit-mol2svg-function-and-visualizing-4cd29c2d7122) - Mixing CGenFF Atom Types to RDKit Mol2SVG Function and Visualizing
 
 ## Electronic Record Compliance
 
