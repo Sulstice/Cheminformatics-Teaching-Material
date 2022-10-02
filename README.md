@@ -65,7 +65,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Variations of SMILES](https://sharifsuliman1.medium.com/validating-smiles-with-rdkit-pysmiles-molvs-and-partialsmiles-5b65e800235f) - Validating SMILES with RDKit, PySMILES, MolVS, and PartialSMILES
 - [Protonating SMILES](https://sharifsuliman1.medium.com/protonating-your-smiles-strings-over-a-range-of-ph-for-small-molecules-and-proteins-78a472a66943) - Protonating your SMILES strings over a range of pH for Small Molecules and Proteins
 - [Fast Cheminformatics](https://sharifsuliman1.medium.com/fastcheminformatics-c927907f2c08) - Using Modin or GPU to read in massive datasets of molecules. 
-- 
+
 ## Molecular Dynamics
 
 - [Converting Coordinate Files](https://sharifsuliman1.medium.com/converting-gro-files-to-pdb-using-python-bbc11931375d) - Converting GRO files to PDB using Python
