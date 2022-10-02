@@ -17,6 +17,7 @@ These materials are designed with the idea that the student needing them has a w
   - [Development Operations](#software-engineering)
   - [Principal Component Analysis](#principal-component-analysis)
   - [Cheminformatics](#chemfinformatics)
+  - [Molecular Dynamics](#molecular-dynamics)
   - [Machine Learning](#machine-learning)
   - [Force Fields](#force-fields)
   - [Electronic Record Compliance](#compliance)
@@ -38,6 +39,7 @@ These materials are designed with the idea that the student needing them has a w
 
 ## Development Operations
 
+- [Monitoring your System with Python](https://sharifsuliman1.medium.com/take-a-glance-at-your-server-c5070c8d1dd1) - Using Python Glances to Monitor Your System
 - [Modern Github Badges](https://sharifsuliman1.medium.com/modern-github-badges-for-open-source-repositories-fb4dceeb368a) - Modern Github Badges For Open Source Repositories
 - [Automating Cheminformatics Workflows](https://sharifsuliman1.medium.com/automating-cheminformatics-with-apache-airflow-step-1-preparing-smiles-transformations-on-large-f007ec614e51) - Automating Cheminformatics with Apache Airflow — Step 1: Preparing SMILES Transformations on Large Scale
 - [Downloading the ZincDB Rapidly](https://sharifsuliman1.medium.com/downloading-the-zinc-database-rapidly-with-aria2-6be150db6617) - Downloading the Zinc Database Rapidly with Aria2
@@ -53,19 +55,32 @@ These materials are designed with the idea that the student needing them has a w
 
 ## Cheminformatics
 
-- [Reference Databases](https://sharifsuliman1.medium.com/using-the-minifrag-database-to-validate-your-smarts-strings-c3bb46ecacd8) - Using the MiniFrag Database to validate your SMARTS strings
+- [Morgan Fingerprinting](https://sharifsuliman1.medium.com/understanding-morgan-f70186b172f6) - Understanding Morgan and converting the chemical structure to a number.
+- [Chemical Reference Databases](https://sharifsuliman1.medium.com/using-the-minifrag-database-to-validate-your-smarts-strings-c3bb46ecacd8) - Using the MiniFrag Database to validate your SMARTS strings
 - [Variations of SMILES](https://sharifsuliman1.medium.com/validating-smiles-with-rdkit-pysmiles-molvs-and-partialsmiles-5b65e800235f) - Validating SMILES with RDKit, PySMILES, MolVS, and PartialSMILES
 - [Protonating SMILES](https://sharifsuliman1.medium.com/protonating-your-smiles-strings-over-a-range-of-ph-for-small-molecules-and-proteins-78a472a66943) - Protonating your SMILES strings over a range of pH for Small Molecules and Proteins
+- [Fast Cheminformatics](https://sharifsuliman1.medium.com/fastcheminformatics-c927907f2c08) - Using Modin or GPU to read in massive datasets of molecules. 
+- 
+## Molecular Dynamics
+
+- [Monitoring your Simulation](https://sharifsuliman1.medium.com/using-python-to-check-molecular-dynamic-simulation-log-files-8ab128ca54f8) - Using python to check molecular dynamic simulation log files.
+- [Coming to Convergence](https://medium.com/p/how-i-was-checking-to-tell-if-there-was-convergence-in-my-simulations-8b324934483e) - How I was checking to tell if there was convergence in my simulations.
+- [Controlling Tumbling](https://sharifsuliman1.medium.com/controlling-tumbling-effects-in-a-molecular-dynamics-simulation-f082513fd0a9) - Controlling Tumbling Effects in a Molecular Dynamics Simulation.
+- [Calculating Dipole Moments](https://sharifsuliman1.medium.com/analyzing-dipole-moments-in-molecular-dynamics-simulations-4c76ce3ba5b0) - Analyzing Dipole Moments in Molecular Dynamics Simulations
 
 ## Machine Learning
 
+- [Probability Density](https://sharifsuliman1.medium.com/how-to-take-the-probability-density-of-any-set-of-numbers-and-make-an-analysis-cca1abdce222) - How to take the probability density of any set of numbers and make an analysis.
+- [Exploring Chemical Knowledge Graph](https://sharifsuliman1.medium.com/exploring-graph-networks-for-iupac-nomenclature-and-smiles-380c870737fc) - Exploring Graph Networks for IUPAC Nomenclature and SMILES.
 - [Using Sunbursting to Detect Chemical Diversity](https://sharifsuliman1.medium.com/using-iupac-with-globalchem-sunbursts-to-determine-chemical-diversity-for-a-list-of-smiles-with-db844a59abe6) - Using IUPAC with GlobalChem Sunbursts to determine Chemical Diversity for a list of SMILES with Plotly.
 - [Sunbursting FDA Colour Additive Lists](https://sharifsuliman1.medium.com/sunbursting-the-fda-colour-additive-7-lists-through-toxalerts-globalchem-nodes-added-95ffe8ff9e37) - Sunbursting the FDA Colour Additive 7 Lists through ToxAlerts. 
 - [Decoding Fingerprints to Chemical Name](https://sharifsuliman1.medium.com/decoding-fingerprints-to-iupac-natural-chemical-names-aff31d058a10) - Decoding Fingerprints to IUPAC/Natural Chemical Names
 - [Levenshtein Distance Applied on Common Chemical & IUPAC Names](https://sharifsuliman1.medium.com/applying-levenshtein-distance-on-iupac-preferred-names-in-globalchem-for-natural-language-1569a727ca13) - Applying Levenshtein distance on IUPAC/Preferred names in GlobalChem for Natural Language Processing.
-
+- [Newick Trees](https://sharifsuliman1.medium.com/learning-a-newick-tree-6fdb8ead9389) - A Newick Tree for Protein Families and Relations
+- 
 ## Force Fields
 
+- [What are Atom Types](https://sharifsuliman1.medium.com/understanding-atom-types-part-1-the-philosophy-ca8c42d333fe) - How to take the probability density of any set of numbers and make an analysis.
 - [Atom Types and SMILES to CurlySMILES](https://sharifsuliman1.medium.com/inclusion-of-atom-types-in-force-fields-to-produce-mixed-cxsmiles-cxsmarts-curlysmiles-832d40ff70d) - Inclusion of Atom Types in Force Fields to produce mixed CXSMILES, CXSMARTS, CurlySMILES
 - [Mixing CGenFF Atom Types with SMILES](https://sharifsuliman1.medium.com/mixing-cgenff-atom-types-to-rdkit-mol2svg-function-and-visualizing-4cd29c2d7122) - Mixing CGenFF Atom Types to RDKit Mol2SVG Function and Visualizing
 
