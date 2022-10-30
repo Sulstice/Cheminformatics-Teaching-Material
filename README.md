@@ -32,6 +32,7 @@ These materials are designed with the idea that the student needing them has a w
 
 - [Lecture 001](https://sharifsuliman1.medium.com/lecture-001-how-to-write-smiles-introduction-to-converting-skeletal-diagrams-to-1-d-data-string-feb40752b5d7) - How to Write SMILES: Introduction to Converting Skeletal Diagrams to 1-D Data String Representation. 
 - [Lecture 002](https://sharifsuliman1.medium.com/lecture-002-expanding-smiles-to-more-diverse-functional-groups-introduction-to-alkenes-alkynes-89d814152767) -  Expanding SMILES to more Diverse Functional Groups: Introduction to Alkenes, Alkynes, and Carbonyls.
+- [Lecture 003](https://sharifsuliman1.medium.com/lecture-003-designing-string-formation-algorithms-introduction-to-canonical-smiles-with-rdkit-53e14801e79a) - Designing String Formation Algorithms & Introduction to Canonical SMILES with RDKit
 
 ## Functional Group Analysis 
 
