@@ -89,7 +89,9 @@ These materials are designed with the idea that the student needing them has a w
 - [Decoding Fingerprints to Chemical Name](https://sharifsuliman1.medium.com/decoding-fingerprints-to-iupac-natural-chemical-names-aff31d058a10) - Decoding Fingerprints to IUPAC/Natural Chemical Names
 - [Levenshtein Distance Applied on Common Chemical & IUPAC Names](https://sharifsuliman1.medium.com/applying-levenshtein-distance-on-iupac-preferred-names-in-globalchem-for-natural-language-1569a727ca13) - Applying Levenshtein distance on IUPAC/Preferred names in GlobalChem for Natural Language Processing.
 - [Newick Trees](https://sharifsuliman1.medium.com/learning-a-newick-tree-6fdb8ead9389) - A Newick Tree for Protein Families and Relations
-- 
+- [Neo4J GraphDatabases](https://sharifsuliman1.medium.com/part-1-connecting-globalchem-knowledge-graph-to-neo4j-graph-database-f613ba67da77) - Part 1 — Connecting GlobalChem Knowledge Graph to Neo4j Graph Database
+
+
 ## Force Fields
 
 - [What are Force Fields](https://sharifsuliman1.medium.com/what-are-force-fields-a-coder-perspective-into-charmm-2a3c03fb684f) - What are force fields? A coder perspective into CHARMM.
