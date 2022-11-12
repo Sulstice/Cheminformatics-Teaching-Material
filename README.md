@@ -34,6 +34,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Lecture 002](https://sharifsuliman1.medium.com/lecture-002-expanding-smiles-to-more-diverse-functional-groups-introduction-to-alkenes-alkynes-89d814152767) -  Expanding SMILES to more Diverse Functional Groups: Introduction to Alkenes, Alkynes, and Carbonyls.
 - [Lecture 003](https://sharifsuliman1.medium.com/lecture-003-designing-string-formation-algorithms-introduction-to-canonical-smiles-with-rdkit-53e14801e79a) - Designing String Formation Algorithms & Introduction to Canonical SMILES with RDKit
 - [Lecture 004](https://sharifsuliman1.medium.com/lecture-004-virtual-atoms-and-bonds-6621918c3a09) - Manipulating SMILES strings with Virtual Atoms and Bonds to create Combinatorial Libraries.
+- [Lecture 005](https://sharifsuliman1.medium.com/lecture-005-understanding-chemical-data-formats-and-writing-your-own-mol2-parser-part-1-cb8681e0d887) -  Understanding Chemical Data Formats and Writing Your Own Mol2 Parser Part 1. 
 
 ## Functional Group Analysis 
 
