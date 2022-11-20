@@ -57,7 +57,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Using PCA to Detect Aromaticity](https://sharifsuliman1.medium.com/using-principal-component-analysis-to-distinct-aromatic-and-non-aromatic-compounds-and-identify-dd01bcebdb47) - Using Principal Component Analysis to distinct Aromatic and Non-Aromatic Compounds and Identify Common Scaffolds for Diverse Communities using SMILES and GlobalChem.
 - [PCA on Cannabis Sativa](https://sharifsuliman1.medium.com/understanding-what-is-inside-of-cannabis-sativa-using-principal-component-analysis-with-global-chem-84c8038f07a8) - Understanding what is inside of Cannabis Sativa using Principal Component Analysis with Global-Chem
 - [PCA on Cannabis Sativa and Oral Contraceptives](https://sharifsuliman1.medium.com/mixing-global-chem-nodes-cannabis-sativa-and-oral-contraceptives-for-principal-component-analysis-5e51097e6218) - Mixing Global-Chem Nodes: Cannabis Sativa and Oral Contraceptives for Principal Component Analysis.
-
+- [PCA on Alternative Jet Fuels](https://sharifsuliman1.medium.com/principal-component-analysis-on-alternative-jet-fuels-with-global-chem-9b75343cb267) - Principal Component Analysis on Alternative Jet Fuels with Global-Chem 
 ## Cheminformatics
 
 - [Understanding Drug Likeness Filters](https://sharifsuliman1.medium.com/understanding-drug-likeness-filters-with-rdkit-and-exploring-the-withdrawn-database-ebd6b8b2921e) - Understanding drug-likeness filters with RDKit and exploring the WITHDRAWN database.
