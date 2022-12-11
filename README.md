@@ -36,7 +36,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Lecture 004](https://sharifsuliman1.medium.com/lecture-004-virtual-atoms-and-bonds-6621918c3a09) - Manipulating SMILES strings with Virtual Atoms and Bonds to create Combinatorial Libraries.
 - [Lecture 005](https://sharifsuliman1.medium.com/lecture-005-understanding-chemical-data-formats-and-writing-your-own-mol2-parser-part-1-cb8681e0d887) -  Understanding Chemical Data Formats and Writing Your Own Mol2 Parser Part 1. 
 
-*Lecture Sries for Graduate-Level Cheminformatics*
+*Lecture Series for Graduate-Level Cheminformatics*
 
 - [Lecture 001](https://sharifsuliman1.medium.com/lecture-001-advanced-cheminformatics-your-1st-million-smiles-b9b58fd62f3) - Your 1st Million SMILES
 
