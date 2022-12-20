@@ -83,6 +83,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Controlling Tumbling](https://sharifsuliman1.medium.com/controlling-tumbling-effects-in-a-molecular-dynamics-simulation-f082513fd0a9) - Controlling Tumbling Effects in a Molecular Dynamics Simulation.
 - [Calculating Dipole Moments](https://sharifsuliman1.medium.com/analyzing-dipole-moments-in-molecular-dynamics-simulations-4c76ce3ba5b0) - Analyzing Dipole Moments in Molecular Dynamics Simulations
 - [Multiprocessing for Hydrogen Bonds](https://sharifsuliman1.medium.com/exploring-multi-processing-for-exhaustive-hydrogen-bonding-analysis-using-mdanalysis-and-futures-661839079126) - Exploring Multi-Processing for Exhaustive Hydrogen Bonding Analysis using MDAnalysis and Futures
+- [Calculating Density](https://sharifsuliman1.medium.com/calculating-density-of-a-neat-liquid-from-a-molecular-dynamics-simulation-with-namd-d67018e068a7) - Calculating Density of a Neat Liquid from a Molecular Dynamics Simulation with NAMD
 
 ## Machine Learning
 
