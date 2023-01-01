@@ -86,6 +86,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Calculating Dipole Moments](https://sharifsuliman1.medium.com/analyzing-dipole-moments-in-molecular-dynamics-simulations-4c76ce3ba5b0) - Analyzing Dipole Moments in Molecular Dynamics Simulations - Suliman Sharif
 - [Multiprocessing for Hydrogen Bonds](https://sharifsuliman1.medium.com/exploring-multi-processing-for-exhaustive-hydrogen-bonding-analysis-using-mdanalysis-and-futures-661839079126) - Exploring Multi-Processing for Exhaustive Hydrogen Bonding Analysis using MDAnalysis and Futures - Suliman Sharif
 - [Calculating Density of a Liquid](https://sharifsuliman1.medium.com/calculating-density-of-a-neat-liquid-from-a-molecular-dynamics-simulation-with-namd-d67018e068a7) - Calculating Density of a Neat Liquid from a Molecular Dynamics Simulation with NAMD - Suliman Sharif
+- [Constant Pressure and Temperature Control](https://sharifsuliman1.medium.com/maintaining-constant-pressure-and-temperature-in-namd-7c2c734146dd) - Maintaining Constant Pressure and Temperature in NAMD.
 
 ## Machine Learning
 
