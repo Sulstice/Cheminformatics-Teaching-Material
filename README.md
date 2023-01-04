@@ -75,6 +75,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Protonating SMILES](https://sharifsuliman1.medium.com/protonating-your-smiles-strings-over-a-range-of-ph-for-small-molecules-and-proteins-78a472a66943) - Protonating your SMILES strings over a range of pH for Small Molecules and Proteins - Suliman Sharif
 - [Fast Cheminformatics](https://sharifsuliman1.medium.com/fastcheminformatics-c927907f2c08) - Using Modin or GPU to read in massive datasets of molecules. - Suliman Sharif
 - [Cannabis Compounds](https://sharifsuliman1.medium.com/exploring-promiscuous-tetrahydrocannabinol-thc-chemical-space-94c62d5d23e) - Exploring Promiscuous Tetrahydrocannabinol (THC) Chemical Space
+- [Optimizing Ligand Geometry](https://sharifsuliman1.medium.com/optimizing-a-molecules-geometry-with-psi4-392267abb45d) - Optimizing A Molecule’s Geometry with Psi4
 
 ## Molecular Dynamics
 
