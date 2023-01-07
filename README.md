@@ -76,6 +76,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Fast Cheminformatics](https://sharifsuliman1.medium.com/fastcheminformatics-c927907f2c08) - Using Modin or GPU to read in massive datasets of molecules. - Suliman Sharif
 - [Cannabis Compounds](https://sharifsuliman1.medium.com/exploring-promiscuous-tetrahydrocannabinol-thc-chemical-space-94c62d5d23e) - Exploring Promiscuous Tetrahydrocannabinol (THC) Chemical Space
 - [Optimizing Ligand Geometry](https://sharifsuliman1.medium.com/optimizing-a-molecules-geometry-with-psi4-392267abb45d) - Optimizing A Molecule’s Geometry with Psi4
+- [Harmonic Analysis in Psi4](https://sharifsuliman1.medium.com/harmonic-analysis-in-psi4-910086603223) - Harmonic Analysis in Psi4
 
 ## Molecular Dynamics
 
