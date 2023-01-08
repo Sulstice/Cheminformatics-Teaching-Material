@@ -77,6 +77,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Cannabis Compounds](https://sharifsuliman1.medium.com/exploring-promiscuous-tetrahydrocannabinol-thc-chemical-space-94c62d5d23e) - Exploring Promiscuous Tetrahydrocannabinol (THC) Chemical Space
 - [Optimizing Ligand Geometry](https://sharifsuliman1.medium.com/optimizing-a-molecules-geometry-with-psi4-392267abb45d) - Optimizing A Molecule’s Geometry with Psi4
 - [Harmonic Analysis in Psi4](https://sharifsuliman1.medium.com/harmonic-analysis-in-psi4-910086603223) - Harmonic Analysis in Psi4
+- [Sn1, Sn2, E1, E2 Mechanism](https://sharifsuliman1.medium.com/sn1-sn2-e1-e2-mechanism-explained-in-smiles-8c7745c92ed8) - Sn1, Sn2, E1, E2 Mechanism Explained in SMILES.
 
 ## Molecular Dynamics
 
