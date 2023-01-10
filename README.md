@@ -78,6 +78,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Optimizing Ligand Geometry](https://sharifsuliman1.medium.com/optimizing-a-molecules-geometry-with-psi4-392267abb45d) - Optimizing A Molecule’s Geometry with Psi4
 - [Harmonic Analysis in Psi4](https://sharifsuliman1.medium.com/harmonic-analysis-in-psi4-910086603223) - Harmonic Analysis in Psi4
 - [Sn1, Sn2, E1, E2 Mechanism](https://sharifsuliman1.medium.com/sn1-sn2-e1-e2-mechanism-explained-in-smiles-8c7745c92ed8) - Sn1, Sn2, E1, E2 Mechanism Explained in SMILES.
+- [SAPT Theory of Helium](https://sulstice.medium.com/symmetry-adapted-perturbation-theory-sapt-of-helium-in-psi4-7aa76e148198) - Symmetry-Adapted Perturbation Theory (SAPT) of Helium in Psi4
 
 ## Molecular Dynamics
 
