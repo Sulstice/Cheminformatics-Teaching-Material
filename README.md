@@ -50,7 +50,7 @@ These materials are designed with the idea that the student needing them has a w
 
 ## Organic Chemistry Standard Mechanisms
 
-- [Hydrobromination of Alkenes](https://sulstice.medium.com/standardizing-mechanisms-hydrobromination-of-styrene-in-smiles-5fb21d5bd76e) - Standardizing Mechanisms: Hydrobromination of Styrene in SMILES
+- [Hydrobromination](https://sulstice.medium.com/standardizing-mechanisms-hydrobromination-of-styrene-in-smiles-5fb21d5bd76e) - Hydrobromination of Styrene in SMILES
 
 ## Functional Group Analysis 
 
