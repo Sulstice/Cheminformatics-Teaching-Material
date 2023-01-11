@@ -13,8 +13,9 @@ These materials are designed with the idea that the student needing them has a w
 
 - [Teaching Material](#teaching-material-)
   - [Lecture Series](#lecture-series)
+  - [Organic Chemistry Standard Mechanisms](#organic-chemistry-standard-mechanisms)
   - [Functional Group Analysis](#functional-group-analysis)
-  - [Development Operations](#software-engineering)
+  - [Development Operations](#development-operations)
   - [Principal Component Analysis](#principal-component-analysis)
   - [Cheminformatics](#cheminformatics)
   - [Molecular Dynamics](#molecular-dynamics)
@@ -39,6 +40,17 @@ These materials are designed with the idea that the student needing them has a w
 *Lecture Series for Graduate-Level Cheminformatics*
 
 - [Lecture 001](https://sharifsuliman1.medium.com/lecture-001-advanced-cheminformatics-your-1st-million-smiles-b9b58fd62f3) - Your 1st Million SMILES - Suliman Sharif
+
+*Youtube Lectures
+
+- [Introduction to SMILES 001](https://www.youtube.com/watch?v=wbt9j3GzQGE) - Alkanes & Alcohols
+- [Introduction to RDKit 001](https://www.youtube.com/watch?v=iPkFeGvYG1A) - Molecule Properties
+- [Introduction to RDKit 001](https://www.youtube.com/watch?v=iPkFeGvYG1A) - Molecule Properties
+- [Introduction into Jupyter Notebook For Scientists](https://www.youtube.com/watch?v=fZoJqXftEls) - Setup Port Forwarding, And Managing Imports
+
+## Organic Chemistry Standard Mechanisms
+
+- [Hydrobromination of Alkenes](https://sulstice.medium.com/standardizing-mechanisms-hydrobromination-of-styrene-in-smiles-5fb21d5bd76e) - Standardizing Mechanisms: Hydrobromination of Styrene in SMILES
 
 ## Functional Group Analysis 
 
