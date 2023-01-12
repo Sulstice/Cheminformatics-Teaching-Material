@@ -14,7 +14,6 @@ These materials are designed with the idea that the student needing them has a w
 - [Teaching Material](#teaching-material-)
   - [Lecture Series](#lecture-series)
   - [Organic Chemistry Standard Mechanisms](#organic-chemistry-standard-mechanisms)
-  - [Functional Group Analysis](#functional-group-analysis)
   - [Development Operations](#development-operations)
   - [Principal Component Analysis](#principal-component-analysis)
   - [Cheminformatics](#cheminformatics)
@@ -53,11 +52,6 @@ These materials are designed with the idea that the student needing them has a w
 - [Hydrobromination](https://sulstice.medium.com/standardizing-mechanisms-hydrobromination-of-styrene-in-smiles-5fb21d5bd76e) - Hydrobromination of Styrene in SMILES
 - [Friedel-Crafts Acylation](https://medium.com/@sulstice/standardizing-mechanisms-hydrobromination-of-styrene-in-smiles-5fb21d5bd76e) - Friedel-Crafts Acylation in SMILES 
 
-## Functional Group Analysis 
-
-- [Azridine](https://sharifsuliman1.medium.com/aziridine-3e62828df2c2) - Aziridine 
-- [Organophosphorous Nerve Toxic Agents](https://sharifsuliman1.medium.com/selection-of-functional-groups-for-chemical-nerve-toxic-agents-novichok-ab1c5a47b918) - Selection of Functional Groups for Chemical Nerve Toxic Agents — Novichok
-
 ## Development Operations
 
 - [Python Package Distribution for Scientific Publications](https://sharifsuliman1.medium.com/a-tutorial-for-releasing-a-python-package-for-scientific-publication-f6817c91cf45) - A Comprehensive Overview for releasing a Python Package for Scientific Publication.
@@ -92,6 +86,8 @@ These materials are designed with the idea that the student needing them has a w
 - [Harmonic Analysis in Psi4](https://sharifsuliman1.medium.com/harmonic-analysis-in-psi4-910086603223) - Harmonic Analysis in Psi4
 - [Sn1, Sn2, E1, E2 Mechanism](https://sharifsuliman1.medium.com/sn1-sn2-e1-e2-mechanism-explained-in-smiles-8c7745c92ed8) - Sn1, Sn2, E1, E2 Mechanism Explained in SMILES.
 - [SAPT Theory of Helium](https://sulstice.medium.com/symmetry-adapted-perturbation-theory-sapt-of-helium-in-psi4-7aa76e148198) - Symmetry-Adapted Perturbation Theory (SAPT) of Helium in Psi4
+- [Azridine](https://sharifsuliman1.medium.com/aziridine-3e62828df2c2) - Aziridine 
+- [Organophosphorous Nerve Toxic Agents](https://sharifsuliman1.medium.com/selection-of-functional-groups-for-chemical-nerve-toxic-agents-novichok-ab1c5a47b918) - Selection of Functional Groups for Chemical Nerve Toxic Agents — Novichok
 
 ## Molecular Dynamics
 
