@@ -45,7 +45,7 @@ These materials are designed with the idea that the student needing them has a w
 
 - [Introduction to SMILES 001](https://www.youtube.com/watch?v=wbt9j3GzQGE) - Alkanes & Alcohols
 - [Introduction to RDKit 001](https://www.youtube.com/watch?v=iPkFeGvYG1A) - Molecule Properties
-- [Introduction to RDKit 001](https://www.youtube.com/watch?v=iPkFeGvYG1A) - Molecule Properties
+- [Introduction to RDKit 002](https://www.youtube.com/watch?v=ECvHWVrkY80) - Analyzing Cannabis and Taking the Probability Distribution of Molecule Properties
 - [Introduction into Jupyter Notebook For Scientists](https://www.youtube.com/watch?v=fZoJqXftEls) - Setup Port Forwarding, And Managing Imports
 
 ## Organic Chemistry Standard Mechanisms
