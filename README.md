@@ -47,6 +47,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Introduction to RDKit 001](https://www.youtube.com/watch?v=iPkFeGvYG1A) - Molecule Properties
 - [Introduction to RDKit 002](https://www.youtube.com/watch?v=ECvHWVrkY80) - Analyzing Cannabis and Taking the Probability Distribution of Molecule Properties
 - [Introduction into Jupyter Notebook For Scientists](https://www.youtube.com/watch?v=fZoJqXftEls) - Setup Port Forwarding, And Managing Imports
+- [Putting Molecular Dynamics Simulations in a Presentation](https://www.youtube.com/watch?v=yCOTxV86t_8) - Putting Molecular Dynamics Simulations in a Presentation
 
 ## Organic Chemistry Standard Mechanisms
 
@@ -63,6 +64,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Downloading the ZincDB Rapidly](https://sharifsuliman1.medium.com/downloading-the-zinc-database-rapidly-with-aria2-6be150db6617) - Downloading the Zinc Database Rapidly with Aria2 
 - [Useful Github Action Bots](https://sharifsuliman1.medium.com/useful-github-actions-bots-to-regulate-my-python-package-c1f02032024d) - Useful Github Actions Bots to Regulate my Python Package
 - [Debugging Distribution Bugs](https://sharifsuliman1.medium.com/debugging-file-encoding-and-file-path-distribution-bugs-for-globalchem-with-github-action-bots-62ca53827686) - Debugging File Encoding and File Path Distribution Bugs for GlobalChem with Github Action Bots. 
+- [Psi4 on a High Performance Cluster](https://sulstice.medium.com/using-psi4-on-a-high-performance-cluster-6d54e2dc89c5)- Using Psi4 on a High Performance Cluster
 
 ## Principal Component Analysis
 
@@ -87,6 +89,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Sn1, Sn2, E1, E2 Mechanism](https://sharifsuliman1.medium.com/sn1-sn2-e1-e2-mechanism-explained-in-smiles-8c7745c92ed8) - Sn1, Sn2, E1, E2 Mechanism Explained in SMILES.
 - [Azridine](https://sharifsuliman1.medium.com/aziridine-3e62828df2c2) - Aziridine 
 - [Organophosphorous Nerve Toxic Agents](https://sharifsuliman1.medium.com/selection-of-functional-groups-for-chemical-nerve-toxic-agents-novichok-ab1c5a47b918) - Selection of Functional Groups for Chemical Nerve Toxic Agents — Novichok
+- [Overriding Gasteiger Partial Charges](https://sulstice.medium.com/overriding-gasteiger-partial-charges-in-rdkit-a7e2be05d7ef) - Overriding Gasteiger Partial Charges in RDKit
 
 ## Computational Chemistry
 
