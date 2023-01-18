@@ -36,7 +36,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Lecture 003](https://sharifsuliman1.medium.com/lecture-003-designing-string-formation-algorithms-introduction-to-canonical-smiles-with-rdkit-53e14801e79a) - Designing String Formation Algorithms & Introduction to Canonical SMILES with RDKit - Suliman Sharif
 - [Lecture 004](https://sharifsuliman1.medium.com/lecture-004-virtual-atoms-and-bonds-6621918c3a09) - Manipulating SMILES strings with Virtual Atoms and Bonds to create Combinatorial Libraries. - Suliman Sharif
 - [Lecture 005](https://sharifsuliman1.medium.com/lecture-005-understanding-chemical-data-formats-and-writing-your-own-mol2-parser-part-1-cb8681e0d887) -  Understanding Chemical Data Formats and Writing Your Own Mol2 Parser Part 1. - Suliman Sharif
-- [Lecture 006](https://sulstice.medium.com/lecture-006-introduction-to-stereochemistry-in-smiles-with-rdkit-4cd5a661fdc9) - Lecture 006 — Introduction to Stereochemistry in SMILES with RDKit
+- [Lecture 006](https://sulstice.medium.com/lecture-006-introduction-to-stereochemistry-in-smiles-with-rdkit-4cd5a661fdc9) — Introduction to Stereochemistry in SMILES with RDKit
 
 *Lecture Series for Graduate-Level Cheminformatics*
 
