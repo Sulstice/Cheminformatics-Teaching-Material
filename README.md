@@ -140,4 +140,17 @@ These materials are designed with the idea that the student needing them has a w
 - [Hosting Websites](https://sharifsuliman1.medium.com/how-i-host-websites-for-12-yr-c0fb0e37184c) - How to Host Static Websites for Cheap. 
 - [Cloud Development for Academic Labs](https://sharifsuliman1.medium.com/implementing-github-code-spaces-for-an-academic-lab-45b920757296) - Implementing Github Code spaces for an Academic Lab. 
 
+## Lifestyle
+
+- [Right My Wrongs](https://medium.com/@sulstice/right-my-wrongs-ghosting-a-woman-88b867afee33) - Right my Wrongs: Ghosting a Woman.
+- [Looking For Love](https://medium.com/@sulstice/looking-for-love-at-the-airport-f410431dcbb3) - Looking for Love at the Airport
+- [Tips For Reducing Anxiety in Dating](https://medium.com/@sulstice/3-tips-for-dudesyou-can-do-to-reduce-your-anxiety-in-dating-e5d48e915c0f) - 3 Tips for Dudes to Reduce your Dating Anxiety.
+- [Finding What I Want in a Partner](https://medium.com/@sulstice/charm-city-tales-finding-what-i-want-in-a-partner-through-dating-517b2feaa2ba) - Charm City Tales : Finding what I want in a partner through dating.
+- [My Transcript Diagram](https://medium.com/@sulstice/using-a-sankey-diagram-to-plot-my-transcript-723a1dabb24a) - Using a Sankey Diagram to Plot my Transcript
+- [Dealing With Death](https://medium.com/@sulstice/dealing-with-death-during-your-phd-c79fd807ec5f) - Dealing with Death during your PhD
+- [My Old Transcripts](https://medium.com/@sulstice/i-went-through-my-old-transcripts-82736ff91e03) - I went through my old transcripts.
+- [Slipping into Depression](https://medium.com/@sulstice/maybe-im-slipping-into-depression-in-this-phd-8cb980d56228) - Maybe I’m slipping into depression in this PhD
+
+
+ 
 
