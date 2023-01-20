@@ -2,6 +2,8 @@
 
 Hello, and welcome to my Github Repository for where I give access to my teaching materials, source code, and other things I use to teach at a undergraduate and graduate level cheminformatics. 
 
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=sulstice.cheminformatics-teaching-material)
+
 <p align="center">
   <img width="604" alt="180214512-4175c15f-33eb-44a8-84e6-4d22e85ef9aa" src="https://user-images.githubusercontent.com/11812946/193455613-c645a2f1-196b-4d0e-9f15-ef3902f99090.png">
 </p>
