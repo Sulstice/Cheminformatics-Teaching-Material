@@ -12,7 +12,7 @@ Hello, and welcome to my Github Repository for where I give access to my teachin
 
 These materials are designed with the idea that the student needing them has a working knowledge of organic chemistry I and II, as well as a computer science course, data structures. There are more advanced tutorials for folk at the graduate level but not completely organized into an official lecture series. I'll work on that component too. 
 
-## Job Positions For Students
+## 2023 Job & Internship Positions For Students
 
 - [Johnson & Johnson](https://jobs.jnj.com/en/jobs/2306101533w/compchem-ml-summer-2023-intern/) - CompChem/ML Summer 2023 Intern
 
