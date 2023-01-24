@@ -74,6 +74,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Useful Github Action Bots](https://sharifsuliman1.medium.com/useful-github-actions-bots-to-regulate-my-python-package-c1f02032024d) - Useful Github Actions Bots to Regulate my Python Package
 - [Debugging Distribution Bugs](https://sharifsuliman1.medium.com/debugging-file-encoding-and-file-path-distribution-bugs-for-globalchem-with-github-action-bots-62ca53827686) - Debugging File Encoding and File Path Distribution Bugs for GlobalChem with Github Action Bots. 
 - [Psi4 on a High Performance Cluster](https://sulstice.medium.com/using-psi4-on-a-high-performance-cluster-6d54e2dc89c5)- Using Psi4 on a High Performance Cluster
+- [Interoperable Chemical Knowledge Graph](https://sulstice.medium.com/designing-an-interoperable-chemical-knowledge-graph-605f77d77805) - Designing an Interoperable Chemical Knowledge Graph
 
 ## Principal Component Analysis
 
