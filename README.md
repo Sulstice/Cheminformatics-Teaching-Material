@@ -12,14 +12,11 @@ Hello, and welcome to my Github Repository for where I give access to my teachin
 
 These materials are designed with the idea that the student needing them has a working knowledge of organic chemistry I and II, as well as a computer science course, data structures. There are more advanced tutorials for folk at the graduate level but not completely organized into an official lecture series. I'll work on that component too. 
 
-## 2023 Job & Internship Positions For Students
-
-- [Johnson & Johnson](https://jobs.jnj.com/en/jobs/2306101533w/compchem-ml-summer-2023-intern/) - CompChem/ML Summer 2023 Intern
-
 ## Table of contents
 
 - [Teaching Material](#teaching-material-)
   - [Lecture Series](#lecture-series)
+  - [2023 Job Postings](#2023-job-postings)
   - [Organic Chemistry Standard Mechanisms](#organic-chemistry-standard-mechanisms)
   - [Development Operations](#development-operations)
   - [Principal Component Analysis](#principal-component-analysis)
@@ -30,7 +27,7 @@ These materials are designed with the idea that the student needing them has a w
   - [Force Fields](#force-fields)
   - [Electronic Record Compliance](#compliance)
   - [Miscellaenous Resources](#miscellaenous-resources)
-  - [See Also](#see-also)
+  - [Lifestyle](#lifestyle)
 
 ---
 
@@ -57,6 +54,27 @@ These materials are designed with the idea that the student needing them has a w
 - [Introduction to RDKit 002](https://www.youtube.com/watch?v=ECvHWVrkY80) - Analyzing Cannabis and Taking the Probability Distribution of Molecule Properties
 - [Introduction into Jupyter Notebook For Scientists](https://www.youtube.com/watch?v=fZoJqXftEls) - Setup Port Forwarding, And Managing Imports
 - [Putting Molecular Dynamics Simulations in a Presentation](https://www.youtube.com/watch?v=yCOTxV86t_8) - Putting Molecular Dynamics Simulations in a Presentation
+
+## 2023 Job Postings
+
+- [Johnson & Johnson](https://jobs.jnj.com/en/jobs/2306101533w/compchem-ml-summer-2023-intern/) - CompChem/ML Summer 2023 Intern - 
+- [Frontier Medicines](https://www.linkedin.com/jobs/search/?currentJobId=3406412320&keywords=computational%20chemistry%20intern) - Computational Chemistry Intern Summer 2023
+- [AbbVie](https://www.wayup.com/i-Pharmaceuticals-j-2023-Experiential-Internship-Machine-Learning-Quantum-Chemistry-Abbvie-955974324250345/?clickcastid=31479705-8769&utm_source=joblift&utm_medium=jobxml&utm_campaign=jobliftXML-APPS-Baltimore-MD-5540395-31479705&refer=jlifxmlXML-APPS-Baltimore-MD-5540395-31479705&cid=43952596266) - Experiential Internship - Machine Learning​/Quantum Chemistry
+- [Astrazeneca](https://www.glassdoor.com/job-listing/computational-chemistry-intern-astrazeneca-JV_IC1153852_KO0,30_KE31,42.htm?jl=1008363066062&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) - Computational Chemistry Intern
+- [Arvinas](https://www.arvinas.com/open-positions/job/summer-internship-computer-assisted-drug-design/) - Summer Internship, Computer Assisted Drug Design
+- [American Chemical Society](https://www.ziprecruiter.com/c/American-Chemical-Society/Job/Data-Specialist-Intern/-in-Washington,DC?jid=bb0e0334bfbef67f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic) - Summer Internship, Computer Assisted Drug Design
+- [Nvidia](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Verification-Intern---2023-Summer_JR1965387?workerSubType=0c40f6bd1d8f10adf6dae42e46d44a17&workerSubType=ab40a98049581037a3ada55b087049b7) - Verification Summer Intern 2023
+- [Meta](https://www.metacareers.com/jobs/662454105575213/?rx_campaign=Linkedin1&rx_group=126320&rx_job=a1K2K000008UX4yUAG_7e79bb16&rx_medium=post&rx_r=none&rx_source=Linkedin&rx_ts=20221217T180304Z&utm_campaign=Job%2Bboard&utm_medium=jobs&utm_source=LIpaid&rx_viewer=c9791c3a9c4411ed9c8c47c49668a18b99a7b7829b0b41a4a4b3f5073b950f33) - AI for Science Summer Internship
+- [Byte Dance](https://jobs.bytedance.com/en/position/7140409912258316557/detail?spread=BSPP2KS) - Research Scientist Intern in Computational Chemistry
+- [Dassault Systems](https://www.3ds.com/careers/jobs/internship-biovia-biologics-drug-design-530209?src=SNS-102) - Biovia and Biologics Drug Design Summer
+- [Kallyope](https://boards.greenhouse.io/kallyope/jobs/4814120?t=2b97ca611us) - Comp Chem Summer 2023 Internship
+- [Genentech](https://careers.gene.com/us/en/job/GENEUS202211139180EXTERNALENUS/2023-Summer-Intern-Prescient-Design-Machine-Learning-Frontier-Research?utm_source=linkedin&utm_medium=phenom-feeds) - 2023 Summer Intern for Prescient Design & Machine Learning
+- [Roche](https://careers.roche.com/global/en/job/ROCHGLOBAL202211139180EXTERNALENGLOBAL/2023-Summer-Intern-Prescient-Design-Machine-Learning-Frontier-Research?utm_source=linkedin&utm_medium=phenom-feeds) - 2023 Summer Intern for Prescient Design & Machine Learning
+- [Microsoft](https://careers.microsoft.com/us/en/job/1489137/Research-Intern-Research-for-Industry-ML-AI-for-Food?jobsource=linkedin&utm_source=linkedin&utm_medium=linkedin&utm_campaign=linkedin-feed) - Research Intern - Research for Industry & ML/AI for Food
+- [Vertex Pharmaceuticals](https://vrtx.wd5.myworkdayjobs.com/Vertex_Careers/job/San-Diego-CA/Computational-Toxicology-Summer-Intern_REQ-16554-1) - Computational Toxicology Summer Intern
+- [Coca Cola](https://careers.coca-colacompany.com/job/17617723/data-scientist-intern-summer-2023-atlanta-ga/) - Data Scientist Intern 2023
+- [Amgen](https://careers.amgen.com/job/16945040/grad-intern-r-d-computational-chemistry-/) - Grad Intern – Computational Chemistry
+- [Cellarity](https://boards.greenhouse.io/flagshippioneeringinc/jobs/6565123002?gh_jid=6565123002) - Cheminformatics Summer Intern 2023
 
 ## Organic Chemistry Standard Mechanisms
 
@@ -141,7 +159,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Atom Types and SMILES to CurlySMILES](https://sharifsuliman1.medium.com/inclusion-of-atom-types-in-force-fields-to-produce-mixed-cxsmiles-cxsmarts-curlysmiles-832d40ff70d) - Inclusion of Atom Types in Force Fields to produce mixed CXSMILES, CXSMARTS, CurlySMILES 
 - [Mixing CGenFF Atom Types with SMILES](https://sharifsuliman1.medium.com/mixing-cgenff-atom-types-to-rdkit-mol2svg-function-and-visualizing-4cd29c2d7122) - Mixing CGenFF Atom Types to RDKit Mol2SVG Function and Visualizing 
 
-## Electronic Record Compliance
+## Compliance
 
 - [Establishing EU and US Compliance in Your Software](https://sharifsuliman1.medium.com/making-global-chem-github-repository-21-cfr-part-11-and-fair-compliant-for-u-s-89b7faab0f95) - Making Global-Chem Github Repository 21 CFR Part 11 and FAIR compliant for U.S and European Countries. 
 
