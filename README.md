@@ -75,6 +75,8 @@ These materials are designed with the idea that the student needing them has a w
 - [Coca Cola](https://careers.coca-colacompany.com/job/17617723/data-scientist-intern-summer-2023-atlanta-ga/) - Data Scientist Intern 2023
 - [Amgen](https://careers.amgen.com/job/16945040/grad-intern-r-d-computational-chemistry-/) - Grad Intern – Computational Chemistry
 - [Cellarity](https://boards.greenhouse.io/flagshippioneeringinc/jobs/6565123002?gh_jid=6565123002) - Cheminformatics Summer Intern 2023
+- [Rivian](https://boards.greenhouse.io/rivian/jobs/5303129003) - Software Engineering Internship 2023
+- [Aqemia](https://startup.jobs/research-internship-computational-chemistry-and-structural-biology-aqemia-4059489) - Research internship - Computational Chemistry and Structural Biology
 
 ## Organic Chemistry Standard Mechanisms
 
