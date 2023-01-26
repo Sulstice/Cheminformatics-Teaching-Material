@@ -83,6 +83,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Hydrobromination](https://sulstice.medium.com/standardizing-mechanisms-hydrobromination-of-styrene-in-smiles-5fb21d5bd76e) - Hydrobromination of Styrene in SMILES
 - [Friedel-Crafts Acylation](https://medium.com/@sulstice/standardizing-mechanisms-hydrobromination-of-styrene-in-smiles-5fb21d5bd76e) - Friedel-Crafts Acylation in SMILES 
 - [Diers Alder](https://sulstice.medium.com/standardizing-mechanisms-diers-alder-reaction-in-smiles-9a8e83abec6f) - Diers-Alder Reaction in SMILES
+- [Diers Alder Bicyclo)(https://sulstice.medium.com/standardizing-mechanisms-diers-alder-reaction-of-bicyclic-compounds-in-smiles-cc54d2c1d319) - Diers-Alder Reaction of Bicyclo Compounds in SMILES
 
 ## Development Operations
 
