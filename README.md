@@ -46,6 +46,7 @@ These materials are designed with the idea that the student needing them has a w
 *Lecture Series for Graduate-Level Cheminformatics*
 
 - [Lecture 001](https://sharifsuliman1.medium.com/lecture-001-advanced-cheminformatics-your-1st-million-smiles-b9b58fd62f3) - Your 1st Million SMILES - Suliman Sharif
+- [Lecture 002](https://sulstice.medium.com/lecture-002-exploring-the-chemical-universe-with-potential-energy-functions-b99f410f112a) - Exploring The Chemical Universe with Potential Energy Functions.
 
 *Youtube Lectures
 
