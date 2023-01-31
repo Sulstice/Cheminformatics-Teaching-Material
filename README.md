@@ -78,6 +78,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Cellarity](https://boards.greenhouse.io/flagshippioneeringinc/jobs/6565123002?gh_jid=6565123002) - Cheminformatics Summer Intern 2023
 - [Rivian](https://boards.greenhouse.io/rivian/jobs/5303129003) - Software Engineering Internship 2023
 - [Aqemia](https://startup.jobs/research-internship-computational-chemistry-and-structural-biology-aqemia-4059489) - Research internship - Computational Chemistry and Structural Biology
+- [NIH](https://www.training.nih.gov/programs/sip) - Summer Internship in Biomedical Research
 
 ## Organic Chemistry Standard Mechanisms
 
