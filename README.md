@@ -125,6 +125,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Organophosphorous Nerve Toxic Agents](https://sharifsuliman1.medium.com/selection-of-functional-groups-for-chemical-nerve-toxic-agents-novichok-ab1c5a47b918) - Selection of Functional Groups for Chemical Nerve Toxic Agents — Novichok
 - [Overriding Gasteiger Partial Charges](https://sulstice.medium.com/overriding-gasteiger-partial-charges-in-rdkit-a7e2be05d7ef) - Overriding Gasteiger Partial Charges in RDKit
 - [Probability Distribution of Chemical Fingerprints Scores](https://sulstice.medium.com/selecting-kinase-inhibitors-with-morgan-fingerprints-and-molecular-similarity-49ce86fdc908) - Probability Distribution of Chemical Fingerprint Similarity Scores with RDKit and Plotly.
+- [Bostroms Algorithm](https://sulstice.medium.com/bostroms-algorithm-in-python-for-protein-ligand-binding-7e265d20ee72) - Bostrom’s Algorithm in Python For Protein-Ligand Binding.
 
 ## Computational Chemistry
 
