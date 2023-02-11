@@ -47,6 +47,7 @@ These materials are designed with the idea that the student needing them has a w
 
 - [Lecture 001](https://sharifsuliman1.medium.com/lecture-001-advanced-cheminformatics-your-1st-million-smiles-b9b58fd62f3) - Your 1st Million SMILES - Suliman Sharif
 - [Lecture 002](https://sulstice.medium.com/lecture-002-exploring-the-chemical-universe-with-potential-energy-functions-b99f410f112a) - Exploring The Chemical Universe with Potential Energy Functions.
+- [Lecture 003](https://sulstice.medium.com/lecture-003-approaching-machine-learning-as-an-organic-chemist-6fd9c9818e3) - Approaching Machine Learning as an Organic Chemist Part 1
 
 *Youtube Lectures
 
