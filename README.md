@@ -129,6 +129,8 @@ These materials are designed with the idea that the student needing them has a w
 - [Overriding Gasteiger Partial Charges](https://sulstice.medium.com/overriding-gasteiger-partial-charges-in-rdkit-a7e2be05d7ef) - Overriding Gasteiger Partial Charges in RDKit
 - [Probability Distribution of Chemical Fingerprints Scores](https://sulstice.medium.com/selecting-kinase-inhibitors-with-morgan-fingerprints-and-molecular-similarity-49ce86fdc908) - Probability Distribution of Chemical Fingerprint Similarity Scores with RDKit and Plotly.
 - [Bostroms Algorithm](https://sulstice.medium.com/bostroms-algorithm-in-python-for-protein-ligand-binding-7e265d20ee72) - Bostrom’s Algorithm in Python For Protein-Ligand Binding.
+- [Neo4J, Global-Chem  Part 1](https://sulstice.medium.com/part-1-connecting-globalchem-knowledge-graph-to-neo4j-graph-database-f613ba67da77) - Part 1 — Connecting GlobalChem Knowledge Graph to Neo4j Graph Database
+- [Neo4J, Global-Chem ChatGPT Part 2](https://sulstice.medium.com/part-2-querying-common-chemicals-with-chatgpt-from-a-neo4j-database-9e346727f97c) - Part 2 — Querying Common Chemicals with ChatGPT From a Neo4j Database
 
 ## Computational Chemistry
 
