@@ -135,6 +135,8 @@ These materials are designed with the idea that the student needing them has a w
 
 ## Medicinal Chemistry
 
+- [Desining a Good Injectable Drug](https://sulstice.medium.com/designing-a-good-injectable-drug-a59ea12f6aa7) - Designing a Good Injectable Drug
+
 ## Computational Chemistry
 
 - [SAPT Theory of Helium](https://sulstice.medium.com/symmetry-adapted-perturbation-theory-sapt-of-helium-in-psi4-7aa76e148198) - Symmetry-Adapted Perturbation Theory (SAPT) of Helium in Psi4
