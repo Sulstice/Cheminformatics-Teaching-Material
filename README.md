@@ -80,6 +80,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Rivian](https://boards.greenhouse.io/rivian/jobs/5303129003) - Software Engineering Internship 2023
 - [Aqemia](https://startup.jobs/research-internship-computational-chemistry-and-structural-biology-aqemia-4059489) - Research internship - Computational Chemistry and Structural Biology
 - [NIH](https://www.training.nih.gov/programs/sip) - Summer Internship in Biomedical Research
+- [Enthought](https://jobs.lever.co/enthought/bb0438f0-4f7b-490d-8e82-1490a7e40a83) - Tokyo Graduate Intern - Scientific Software Developer
 
 ## Organic Chemistry Standard Mechanisms
 
