@@ -21,6 +21,7 @@ These materials are designed with the idea that the student needing them has a w
   - [Development Operations](#development-operations)
   - [Principal Component Analysis](#principal-component-analysis)
   - [Cheminformatics](#cheminformatics)
+  - [Medicinal Chemistry](#medicinal-chemistry)
   - [Computational Chemistry](#computational-chemistry)
   - [Molecular Dynamics](#molecular-dynamics)
   - [Machine Learning](#machine-learning)
@@ -103,7 +104,6 @@ These materials are designed with the idea that the student needing them has a w
 - [Managing Open Source Licenses](https://sulstice.medium.com/managing-open-source-licenses-for-python-package-dependencies-1cffbf3e2577) - Managing Open Source Licenses For Python Package Dependencies
 - [Gitbook Documentation](https://sulstice.medium.com/python-design-documentation-part-i-goodbye-readthedocs-hello-gitbook-347aae676353) - Python Design Documentation Part I: Goodbye ReadTheDocs, Hello GitBook
 
-
 ## Principal Component Analysis
 
 - [PCA on PihKal Book](https://sharifsuliman1.medium.com/using-principal-component-analysis-to-distinct-aromatic-and-non-aromatic-compounds-and-identify-dd01bcebdb47) - Principal Component Analysis on the list of SMILES from Pihkal using GlobalChem and IUPAC 
@@ -132,6 +132,8 @@ These materials are designed with the idea that the student needing them has a w
 - [Bostroms Algorithm](https://sulstice.medium.com/bostroms-algorithm-in-python-for-protein-ligand-binding-7e265d20ee72) - Bostrom’s Algorithm in Python For Protein-Ligand Binding.
 - [Neo4J, Global-Chem  Part 1](https://sulstice.medium.com/part-1-connecting-globalchem-knowledge-graph-to-neo4j-graph-database-f613ba67da77) - Part 1 — Connecting GlobalChem Knowledge Graph to Neo4j Graph Database
 - [Neo4J, Global-Chem ChatGPT Part 2](https://sulstice.medium.com/part-2-querying-common-chemicals-with-chatgpt-from-a-neo4j-database-9e346727f97c) - Part 2 — Querying Common Chemicals with ChatGPT From a Neo4j Database
+
+## Medicinal Chemistry
 
 ## Computational Chemistry
 
