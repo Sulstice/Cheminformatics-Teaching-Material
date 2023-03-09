@@ -61,6 +61,7 @@ These materials are designed with the idea that the student needing them has a w
 ## 2023 PhD Positions
 
 - [Universität Hamburg](https://www.zbh.uni-hamburg.de/en/service/stellen.html) - develop new approaches to identify targets and off-targets for potential drug candidates using modern modelling and AI techniques.
+- [Uppsala University](https://www.uu.se/en/about-uu/join-us/details/?positionId=602865) - you are part of designing the future of synchrotron technology and instrumentation and using these to tackle some of the most significant global challenges the world faces today while acquiring interdisciplinary and intersectoral knowledge. 
 
 ## 2023 Job Postings
 
