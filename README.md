@@ -58,6 +58,10 @@ These materials are designed with the idea that the student needing them has a w
 - [Introduction into Jupyter Notebook For Scientists](https://www.youtube.com/watch?v=fZoJqXftEls) - Setup Port Forwarding, And Managing Imports
 - [Putting Molecular Dynamics Simulations in a Presentation](https://www.youtube.com/watch?v=yCOTxV86t_8) - Putting Molecular Dynamics Simulations in a Presentation
 
+## PhD Positions
+
+- [Universität Hamburg](https://www.zbh.uni-hamburg.de/en/service/stellen.html) - develop new approaches to identify targets and off-targets for potential drug candidates using modern modelling and AI techniques.
+
 ## 2023 Job Postings
 
 - [Johnson & Johnson](https://jobs.jnj.com/en/jobs/2306101533w/compchem-ml-summer-2023-intern/) - CompChem/ML Summer 2023 Intern - 
