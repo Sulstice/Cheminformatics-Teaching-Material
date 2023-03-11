@@ -26,6 +26,7 @@ These materials are designed with the idea that the student needing them has a w
   - [Molecular Dynamics](#molecular-dynamics)
   - [Machine Learning](#machine-learning)
   - [Force Fields](#force-fields)
+  - [CHARMM Errors](#charmm-errors)
   - [Electronic Record Compliance](#compliance)
   - [Miscellaenous Resources](#miscellaenous-resources)
   - [Lifestyle](#lifestyle)
@@ -181,6 +182,10 @@ These materials are designed with the idea that the student needing them has a w
 - [What are Atom Types](https://sharifsuliman1.medium.com/understanding-atom-types-part-1-the-philosophy-ca8c42d333fe) - How to take the probability density of any set of numbers and make an analysis. 
 - [Atom Types and SMILES to CurlySMILES](https://sharifsuliman1.medium.com/inclusion-of-atom-types-in-force-fields-to-produce-mixed-cxsmiles-cxsmarts-curlysmiles-832d40ff70d) - Inclusion of Atom Types in Force Fields to produce mixed CXSMILES, CXSMARTS, CurlySMILES 
 - [Mixing CGenFF Atom Types with SMILES](https://sharifsuliman1.medium.com/mixing-cgenff-atom-types-to-rdkit-mol2svg-function-and-visualizing-4cd29c2d7122) - Mixing CGenFF Atom Types to RDKit Mol2SVG Function and Visualizing 
+
+## CHARMM Errors
+
+- [Warning from RDCMND](https://medium.com/@sharifsuliman/charmm-error-warning-from-rdcmnd-command-line-too-long-a176fa289dae) - Charmm Error: Warning from RDCMND, Command Line Too Long.
 
 ## Compliance
 
