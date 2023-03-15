@@ -109,6 +109,8 @@ These materials are designed with the idea that the student needing them has a w
 - [Interoperable Chemical Knowledge Graph](https://sulstice.medium.com/designing-an-interoperable-chemical-knowledge-graph-605f77d77805) - Designing an Interoperable Chemical Knowledge Graph
 - [Managing Open Source Licenses](https://sulstice.medium.com/managing-open-source-licenses-for-python-package-dependencies-1cffbf3e2577) - Managing Open Source Licenses For Python Package Dependencies
 - [Gitbook Documentation](https://sulstice.medium.com/python-design-documentation-part-i-goodbye-readthedocs-hello-gitbook-347aae676353) - Python Design Documentation Part I: Goodbye ReadTheDocs, Hello GitBook
+- [Distribution of Python Package](https://sharifsuliman.medium.com/distributing-python-main-and-submodules-on-pypi-49140a6c31f5) - Distributing Python Main and Submodules on PyPi
+
 
 ## Principal Component Analysis
 
