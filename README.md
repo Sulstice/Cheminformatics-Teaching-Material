@@ -188,6 +188,7 @@ These materials are designed with the idea that the student needing them has a w
 ## CHARMM Errors
 
 - [Warning from RDCMND](https://medium.com/@sharifsuliman/charmm-error-warning-from-rdcmnd-command-line-too-long-a176fa289dae) - Charmm Error: Warning from RDCMND, Command Line Too Long.
+- [Energy Change Tolerance Exceeded](https://sharifsuliman.medium.com/charmm-error-energy-change-tolerance-exceeded-1898e8c19f0a) - Charmm Error: Energy Change Tolerance Exceeded
 
 ## Compliance
 
