@@ -142,6 +142,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Neo4J, Global-Chem  Part 1](https://sulstice.medium.com/part-1-connecting-globalchem-knowledge-graph-to-neo4j-graph-database-f613ba67da77) - Part 1 — Connecting GlobalChem Knowledge Graph to Neo4j Graph Database
 - [Neo4J, Global-Chem ChatGPT Part 2](https://sulstice.medium.com/part-2-querying-common-chemicals-with-chatgpt-from-a-neo4j-database-9e346727f97c) - Part 2 — Querying Common Chemicals with ChatGPT From a Neo4j Database
 - [Chemical Diversity](https://sharifsuliman.medium.com/principles-of-chemical-diversity-89fd1c854a0e) - Principles of Chemical Diversity
+- [Converting CSV/TSV to RDF](https://sharifsuliman.medium.com/converting-your-knowledge-graph-tsv-csv-to-a-resource-description-framework-rdf-for-e3e7305519bd) - Converting your Knowledge Graph TSV/CSV to a Resource Description Framework (RDF) For Interoperability
 
 ## Medicinal Chemistry
 
