@@ -25,6 +25,7 @@ These materials are designed with the idea that the student needing them has a w
   - [Computational Chemistry](#computational-chemistry)
   - [Molecular Dynamics](#molecular-dynamics)
   - [Machine Learning](#machine-learning)
+  - [Large Language Models](#large-language-models)
   - [Force Fields](#force-fields)
   - [CHARMM Errors](#charmm-errors)
   - [Electronic Record Compliance](#compliance)
@@ -180,6 +181,9 @@ These materials are designed with the idea that the student needing them has a w
 - [Neo4J GraphDatabases](https://sharifsuliman1.medium.com/part-1-connecting-globalchem-knowledge-graph-to-neo4j-graph-database-f613ba67da77) - Part 1 — Connecting GlobalChem Knowledge Graph to Neo4j Graph Database 
 - [Convolutional Neural Network for Cannabis](https://sharifsuliman.medium.com/designing-a-convolutional-neural-network-for-cannabis-machine-learning-part-1-e5a2d8f667af) - Designing a Convolutional Neural Network For Cannabis Machine Learning Part 1
 
+# Large Language Models
+
+- [GlobalChem Language with ChatGPT](https://medium.com/@sharifsuliman/combining-chemical-languages-with-chatgpt-using-large-language-models-llms-part-1-1a30adb8eebf) - Combining Chemical Languages with ChatGPT using Large Language Models (LLMs) Part 1
 
 ## Force Fields
 
