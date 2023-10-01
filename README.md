@@ -214,7 +214,7 @@ These materials are designed with the idea that the student needing them has a w
 - [My Transcript Diagram](https://medium.com/@sulstice/using-a-sankey-diagram-to-plot-my-transcript-723a1dabb24a) - Using a Sankey Diagram to Plot my Transcript
 - [Dealing With Death](https://medium.com/@sulstice/dealing-with-death-during-your-phd-c79fd807ec5f) - Dealing with Death during your PhD
 - [My Old Transcripts](https://medium.com/@sulstice/i-went-through-my-old-transcripts-82736ff91e03) - I went through my old transcripts.
-
+- [PhD Blog: What I cook for Buy and Plan to Cook for Food for the week](https://sharifsuliman.medium.com/ph-d-blog-what-i-buy-and-plan-to-cook-when-i-go-grocery-shopping-for-the-week-3267160d6ba1) - Ph.D. Blog: What I Buy and Plan to Cook when I go Grocery Shopping For the Week
 
  
 
