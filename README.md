@@ -157,6 +157,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Harmonic Analysis in Psi4](https://sharifsuliman1.medium.com/harmonic-analysis-in-psi4-910086603223) - Harmonic Analysis in Psi4
 - [Optimizing Ligand Geometry](https://sharifsuliman1.medium.com/optimizing-a-molecules-geometry-with-psi4-392267abb45d) - Optimizing A Molecule’s Geometry with Psi4
 - [Visualizing Molecular Orbitals](https://sulstice.medium.com/visualizing-frontier-orbitals-with-psi4-and-python-c01f335afaad) - Visualizing Frontier Orbitals with Psi4 and Python
+- [Your First Lennard-Jones Potential Energy Scan](https://sharifsuliman.medium.com/your-first-lennard-jones-potential-energy-scan-in-python-db343e6e0dd5) - Your First Lennard-Jones Potential Energy Scan
 
 ## Molecular Dynamics
 
