@@ -203,6 +203,7 @@ These materials are designed with the idea that the student needing them has a w
 ## Compliance
 
 - [Establishing EU and US Compliance in Your Software](https://sharifsuliman1.medium.com/making-global-chem-github-repository-21-cfr-part-11-and-fair-compliant-for-u-s-89b7faab0f95) - Making Global-Chem Github Repository 21 CFR Part 11 and FAIR compliant for U.S and European Countries. 
+- [Ethical Data Sharing Clauses For AI](https://sharifsuliman.medium.com/ethical-artificial-intelligence-data-sharing-clauses-for-b2b-agreements-f09b00c7615c) - Ethical Artificial Intelligence Data Sharing Clauses For B2B Agreements
 
 ## Miscellaenous Resources
 
