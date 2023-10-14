@@ -1,0 +1,4 @@
+# ConvPDB - dirty implementation for preparing the PDB for CHARMM.
+/home/sulstice/tool-sets/toolset/perl/convpdb.pl -out charmm22noh -segnames raw_protein.pdb > new_protein.pdb
+
+# Rechange all residnames to the same resid name PROA can do so with vim 'esc' -> :%s/PRO2/PROA/g

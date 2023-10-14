@@ -1,0 +1,87 @@
+* ADD dummy H for protein
+* Usage: charmm < step1_add_h.inp > step1_add_h.out
+
+random uniform
+faster on
+
+! Inputs and Variables
+!-------------------------
+set in  =  pdb_files/model
+set out =  results/step1_out_model
+proteinset segi = PROA  ! segname ID of protein
+
+! Read topology and parameter files
+!----------------------------------
+stream toppar.str
+
+! Read Sequence Information
+!---------------------------
+open read card unit 1 name @{in}.pdb
+read sequence pdb unit 1 resid
+generate PROA setup
+close unit 1
+
+! Read Coordinate Information  
+!----------------------------
+open read unit 1 form name @{in}.pdb
+read coor pdb unit 1 resid
+close unit 1
+
+ic para
+ic build
+
+!!H-Build
+!--------
+HBuild
+
+AUTOGEN ANGLes DIHEd
+
+!!!!!!!!!!!!!!!!!!
+!! Minimization !!
+!!!!!!!!!!!!!!!!!!
+
+! Minimize hydrogens ONLY
+! -----------------------
+cons fix sele .not. hydrogen end            ! fix heavy atoms
+mini sd   nstep 50 nprint 5
+mini abnr nstep 10 nprint 1
+cons fix sele none end                      ! MUST remove fix
+
+cons harm force 5.0 sele .not. hydrogen end ! restrain heavy atoms
+mini sd   nstep 50 nprint 5
+mini abnr nstep 10 nprint 1
+cons harm clear                             ! remove restraints
+
+!!!!!!!!!!!!!!!!!!!
+!! Write outputs !!
+!!!!!!!!!!!!!!!!!!!
+
+open write unit 90 card name @{out}.psf
+write psf card unit 90 
+close unit 90
+
+open write unit 90 card name @{out}.crd
+write coor card unit 90  
+close unit 90
+
+open write unit 90 card name @{out}.pdb
+write coor pdb unit 90 
+close unit 90
+
+stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

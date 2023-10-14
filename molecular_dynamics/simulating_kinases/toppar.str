@@ -1,0 +1,15 @@
+* Stream file for topology and parameter reading
+
+set topparloc ../toppar 
+
+! protein topology and parameter
+open read card unit 10 name @topparloc/top_all22_prot.rtf
+read rtf card unit 10
+
+open read card unit 20 name @topparloc/par_all22_prot.prm
+read param card unit 20 flex
+
+! Additional topologies and parameters for water and ions
+stream @topparloc/toppar_water_ions.str
+
+
