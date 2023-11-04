@@ -1,0 +1,366 @@
+* Topology and NBFIX parameters from Univ of Illinois, Urbana0-Charmpaign-Urbana (UIUC)
+* Jejoong Yoo & Aleksei Aksimentiev, February 2019
+*
+
+! IMPORTANT NOTE:
+! To use this Champaign-Urbana NBFIX (CUFIX) corrections, stream this file 
+! "after" streaming toppar_water_ions.str:
+!
+! stream toppar_water_ions.str
+! stream toppar_cufix.str
+!
+! Because we make corrections to the standard values, the order of stream functions matter.
+
+! References
+!
+! 1. Our website has information required to use CUFIX for the other MD packages such as 
+! CHARMM, Gromacs, NAMD, Anton, and AMBER:
+!
+! http://bionano.physics.illinois.edu/CUFIX
+!
+! 2. Summary and corrections for RUB and CES ions.
+! 
+! Jejoong Yoo & Aleksei Aksimentiev, 
+! "New tricks for old dogs: improving the accuracy of biomolecular force fields 
+! by pair-specific corrections to non-bonded interactions", Physical Chemistry Chemical Physics, 
+! 20:8432–8449, 2018
+!
+! 3. Amine and guanidinium:
+!
+! Jejoong Yoo & Aleksei Aksimentiev,
+! "Improved parameterization of amine-carboxyate and amine-phosphate interactions 
+!  for molecular dynamics simulations using the CHARMM and AMBER force fields" 
+! Journal of Chemical Theory and Computation, 12:430–443, 2016
+!
+! 4. LIT, SOD, POT, MG ions:
+!
+! Jejoong Yoo & Aleksei Aksimentiev,
+! "Improved parametrization of Li+, Na+, K+, and Mg2+ ions for all-atom molecular dynamics 
+!  simulations of nucleic acid systems." 
+! The Journal of Physical Chemistry Letters, 3:45–50, 2012
+!
+! 5. Calcium:
+!
+! Jejoong Yoo, James Wilson & Aleksei Aksimentiev, 
+! "Improved model of hydrated calcium ion for molecular dynamics simulations using classical 
+!  biomolecular force fields" 
+! Biopolymers, 105:752–763, 2016
+!
+
+read rtf card append
+*
+31  1
+
+MASS   169 OTMG   15.99940 O ! TIPS3P WATER OXYGEN for MGH
+MASS   170 OTCA   15.99940 O ! TIPS3P WATER OXYGEN for MGH
+
+default first none last none
+
+autogenerate angles dihedrals 
+
+RESI MGH   2.00  ! Mg-hexahydrate
+! generate MGH setup noangle nodihedrals
+GROUP
+ATOM MG   MG   2.00
+GROUP   
+ATOM OH2A  OTMG   -1.190
+ATOM H1A   HT      0.595
+ATOM H2A   HT      0.595
+GROUP   
+ATOM OH2B  OTMG   -1.190
+ATOM H1B   HT      0.595
+ATOM H2B   HT      0.595
+GROUP   
+ATOM OH2C  OTMG   -1.190
+ATOM H1C   HT      0.595
+ATOM H2C   HT      0.595
+GROUP   
+ATOM OH2D  OTMG   -1.190
+ATOM H1D   HT      0.595
+ATOM H2D   HT      0.595
+GROUP   
+ATOM OH2E  OTMG   -1.190
+ATOM H1E   HT      0.595
+ATOM H2E   HT      0.595
+GROUP   
+ATOM OH2F  OTMG   -1.190
+ATOM H1F   HT      0.595
+ATOM H2F   HT      0.595
+!BOND MG OH2A  MG OH2B  MG OH2C  MG OH2D  MG OH2E  MG OH2F ! unfortunately, not work.
+BOND OH2A H1A OH2A H2A H1A H2A  ! the last bond is needed for shake
+BOND OH2B H1B OH2B H2B H1B H2B  ! the last bond is needed for shake
+BOND OH2C H1C OH2C H2C H1C H2C  ! the last bond is needed for shake
+BOND OH2D H1D OH2D H2D H1D H2D  ! the last bond is needed for shake
+BOND OH2E H1E OH2E H2E H1E H2E  ! the last bond is needed for shake
+BOND OH2F H1F OH2F H2F H1F H2F  ! the last bond is needed for shake
+ANGLE H1A OH2A H2A             ! required
+ANGLE H1B OH2B H2B             ! required
+ANGLE H1C OH2C H2C             ! required
+ANGLE H1D OH2D H2D             ! required
+ANGLE H1E OH2E H2E             ! required
+ANGLE H1F OH2F H2F             ! required
+PATC FIRS NONE LAST NONE
+
+RESI CAH   2.00  ! Ca-heptahydrate
+GROUP
+ATOM CAL  CAL  2.00
+GROUP   
+ATOM OH2A  OTCA   -1.012
+ATOM H1A   HT      0.506
+ATOM H2A   HT      0.506
+GROUP   
+ATOM OH2B  OTCA   -1.012
+ATOM H1B   HT      0.506
+ATOM H2B   HT      0.506
+GROUP   
+ATOM OH2C  OTCA   -1.012
+ATOM H1C   HT      0.506
+ATOM H2C   HT      0.506
+GROUP   
+ATOM OH2D  OTCA   -1.012
+ATOM H1D   HT      0.506
+ATOM H2D   HT      0.506
+GROUP   
+ATOM OH2E  OTCA   -1.012
+ATOM H1E   HT      0.506
+ATOM H2E   HT      0.506
+GROUP   
+ATOM OH2F  OTCA   -1.012
+ATOM H1F   HT      0.506
+ATOM H2F   HT      0.506
+GROUP   
+ATOM OH2G  OTCA   -1.012
+ATOM H1G   HT      0.506
+ATOM H2G   HT      0.506
+!BOND MG OH2A  MG OH2B  MG OH2C  MG OH2D  MG OH2E  MG OH2F ! unfortunately, not work.
+BOND OH2A H1A OH2A H2A H1A H2A  ! the last bond is needed for shake
+BOND OH2B H1B OH2B H2B H1B H2B  ! the last bond is needed for shake
+BOND OH2C H1C OH2C H2C H1C H2C  ! the last bond is needed for shake
+BOND OH2D H1D OH2D H2D H1D H2D  ! the last bond is needed for shake
+BOND OH2E H1E OH2E H2E H1E H2E  ! the last bond is needed for shake
+BOND OH2F H1F OH2F H2F H1F H2F  ! the last bond is needed for shake
+BOND OH2G H1G OH2G H2G H1G H2G  ! the last bond is needed for shake
+ANGLE H1A OH2A H2A             ! required
+ANGLE H1B OH2B H2B             ! required
+ANGLE H1C OH2C H2C             ! required
+ANGLE H1D OH2D H2D             ! required
+ANGLE H1E OH2E H2E             ! required
+ANGLE H1F OH2F H2F             ! required
+ANGLE H1G OH2G H2G             ! required
+PATC FIRS NONE LAST NONE
+
+end
+
+set para
+if ?NUMNODE gt 1 set para node 0
+
+set wrn ?WRNLEV
+! Some versions of CHARMM don't seem to initialize wrnlev...
+if "@WRN" eq "?WRNLEV" set wrn 5
+set bom ?bomlev
+WRNLEV -1 @PARA
+BOMLEV -1 @PARA
+read para card flex append
+* Ion parameters
+*
+
+BONDS
+!atom type      Kb       b0
+!============================================
+!dum  HN1     100.000   1.0000
+MG	OTMG	100.00	1.9400	    ! dummy values. Constraint is mandatory.
+CAL	OTCA	100.00	1.9400	    ! dummy values. Constraint is mandatory.
+OTMG    HT     450.000     0.9572
+OTCA    HT     450.000     0.9572
+
+ANGLES
+!atom types     Ktheta  Theta0   Kub     S0
+!==================================================
+HT   OTMG   HT     55.000   104.5200
+HT   OTCA   HT     55.000   104.5200
+
+DIHEDRALS
+!atom types            Kchi     n     delta
+!==================================================
+
+IMPROPER
+!atom types            Kpsi     0      psi0
+!==================================================
+
+NONBONDED nbxmod  5 atom cdiel shift vatom vdistance vswitch -
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5
+!V(Lennard-Jones) = Eps,i,j[(Rmin,i,j/ri,j)**12 - 2(Rmin,i,j/ri,j)**6]
+!
+!epsilon: kcal/mole, Eps,i,j = sqrt(eps,i * eps,j)
+!Rmin/2: A, Rmin,i,j = Rmin/2,i + Rmin/2,j
+!
+!atom  ignored    epsilon      Rmin/2   ignored   eps,1-4       Rmin/2,1-4
+ OTMG   0.000000  -0.152100     1.768200 ! TIP3P oxygen
+ OTCA   0.000000  -0.152100     1.768200 ! TIP3P oxygen
+
+NBFIX
+!              Emin         Rmin
+!            (kcal/mol)     (A)
+! monovalent cation -- protein acetate (OC), lipid acetate (OCL)
+!LIT    OC       -0.016721      2.9975   ! standard
+ LIT    OC       -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+ LIT    OCL      -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+ LIT    OG2D2    -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+ LIT    OC2D2    -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+!SOD    OC       -0.075020      3.11075  ! standard
+ SOD    OC       -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+ SOD    OCL      -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+ SOD    OG2D2    -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+ SOD    OC2D2    -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+!POT    OC       -0.102176      3.46375  ! standard
+ POT    OC       -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+ POT    OCL      -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+ POT    OG2D2    -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+ POT    OC2D2    -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+!RUB    OC       -0.134164      3.60000  ! standard
+ RUB    OC       -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+ RUB    OCL      -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+ RUB    OG2D2    -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+ RUB    OC2D2    -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+
+! monovalent cation -- lipid phosphate (O2L), nucleic acid phosphate (ON3)
+!LIT    OC       -0.016721      2.9975   ! standard
+ LIT    O2L      -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+ LIT    ON3      -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+ LIT    OG2P1    -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+ LIT    OC2DP    -0.016721      3.1875   ! +0.19 Yoo & Aksimentiev, JPCL 2012
+!SOD    OC       -0.075020      3.11075  ! standard
+ SOD    O2L      -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+ SOD    ON3      -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+ SOD    OG2P1    -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+ SOD    OC2DP    -0.075020      3.20075  ! +0.09 Yoo & Aksimentiev, JPCL 2012
+!POT    OC       -0.102176      3.46375  ! standard
+ POT    O2L      -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+ POT    ON3      -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+ POT    OG2P1    -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+ POT    OC2DP    -0.102176      3.54375  ! +0.08 Yoo & Aksimentiev, JPCL 2012
+!RUB    OC       -0.134164      3.60000  ! standard
+ RUB    O2L      -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+ RUB    ON3      -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+ RUB    OG2P1    -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+ RUB    OC2DP    -0.134164      3.65600  ! +0.056 Yoo & Aksimentiev, PCCP 2018
+
+! monovalent cation -- chloride
+!LIT    CLA      -0.018695      3.5675   ! standard
+ LIT    CLA      -0.018695      3.7975   ! +0.23 Yoo & Aksimentiev, JPCL 2012
+!SOD    CLA      -0.083875      3.68075  ! standard
+ SOD    CLA      -0.083875      3.74075  ! +0.06 Yoo & Aksimentiev, JPCL 2012
+!POT    CLA      -0.114237      4.03375  ! standard
+ POT    CLA      -0.114237      4.08375  ! +0.05 Yoo & Aksimentiev, JPCL 2012
+!RUB    CLA      -0.150000      4.170    ! standard
+ RUB    CLA      -0.150000      4.192    ! +0.022 Yoo & Aksimentiev, PCCP 2018
+
+! magnesium -- chloride
+!OTMG   CLA      -0.151046	4.03820  ! standard
+ OTMG   CLA      -0.151046	4.05320  ! +0.015
+! magnesium -- acetate / phosphate
+!OTMG   OC	 -0.135099	3.46820  ! standard
+ OTMG   OC	 -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+ OTMG   OCL	 -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+ OTMG   OG2D2    -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+ OTMG   OC2D2    -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+ OTMG   O2L	 -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+ OTMG   ON3	 -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+ OTMG   OG2P1    -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+ OTMG   OC2DP    -0.135099	3.52320	 ! +0.055 Yoo & Aksimentiev, JPCL 2012
+
+!! calcium
+!OTCA  CLA   -0.151046350502   4.03820	! standard
+ OTCA  CLA   -0.151046350502   4.04944	! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+!OTCA  OC    -0.135099962990   3.46820  ! standard
+ OTCA  OC    -0.135099962990   3.54677  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+ OTCA  OCL   -0.135099962990   3.54677  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+ OTCA  OG2D2 -0.135099962990   3.54677  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+ OTCA  OC2D2 -0.135099962990   3.54677  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+!OTCA  ON3   -0.135099962990   3.46820  ! standard
+ OTCA  ON3   -0.135099962990   3.49064  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+ OTCA  OG2P1 -0.135099962990   3.49064  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+ OTCA  OC2DP -0.135099962990   3.49064  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+ OTCA  O2L   -0.135099962990   3.49064  ! Yoo, Wilson & Aksimentiev, Biopolymers 2016
+
+! amine/guanidinium-chloride
+!NH3    CLA       -0.173205     4.12     ! standard
+ NH3    CLA       -0.173205     4.15     ! +0.03 Yoo & Aksimentiev, JCTC 2018
+ NH3L   CLA       -0.173205     4.15     ! +0.03 Yoo & Aksimentiev, JCTC 2018
+ NC2    CLA       -0.173205     4.15     ! +0.03 Yoo & Aksimentiev, JCTC 2018
+ NP     CLA       -0.173205     4.15     ! +0.03 Yoo & Aksimentiev, JCTC 2018
+ NR3    CLA       -0.173205     4.15     ! +0.03 Yoo & Aksimentiev, JCTC 2018
+ NG3P3  CLA       -0.173205     4.15     ! +0.03 Yoo & Aksimentiev, JCTC 2018
+
+! amine in amino acids - carboxylate
+!NH3     OC     -0.15491933384829667540   3.55  ! standard
+ NH3     OC     -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NH3     OCL    -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NH3     OG2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NH3     OC2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+! amine in amino acids - phosphate
+ NH3     O2L    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NH3     ON3    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NH3     OG2P1  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NH3     OC2DP  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+! amine in lipid - carboxylate
+ NH3L    OC     -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NH3L    OCL    -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NH3L    OG2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NH3L    OC2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+! amine in lipid - phosphate
+!NH3L    O2L    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NH3L    ON3    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NH3L    OG2P1  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NH3L    OC2DP  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+! amine in N-ter proline - carboxylate
+!NP      OC     -0.15491933384829667540   3.55  ! standard
+ NP      OC     -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NP      OCL    -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NP      OG2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NP      OC2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+! amine in N-ter proline - phosphate
+ NP      O2L    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NP      ON3    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NP      OG2P1  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NP      OC2DP  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+! amine in charged histidine - carboxylate
+!NR3     OC     -0.15491933384829667540   3.55  ! standard
+ NR3     OC     -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NR3     OCL    -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NR3     OG2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NR3     OC2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+! amine in charged histidine - phosphate
+ NR3     O2L    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NR3     ON3    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NR3     OG2P1  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NR3     OC2DP  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+! cgenff amine - carboxylate
+!NG3P3   OC     -0.15491933384829667540   3.55  ! standard
+ NG3P3   OC     -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NG3P3   OCL    -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NG3P3   OG2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+ NG3P3   OC2D2  -0.15491933384829667540   3.63  ! +0.08 Yoo & Aksimentiev, JCTC 2018
+! cgenff amine - phosphate
+ NG3P3   O2L    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NG3P3   ON3    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NG3P3   OG2P1  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NG3P3   OC2DP  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+
+! guanidinium - carboxylate
+!NC2     OC     -0.15491933384829667540   3.55  ! standard
+ NC2     OC     -0.15491933384829667540   3.75  ! +0.20 Yoo & Aksimentiev, PCCP 2018
+ NC2     OCL    -0.15491933384829667540   3.75  ! +0.20 Yoo & Aksimentiev, PCCP 2018
+ NC2     OG2D2  -0.15491933384829667540   3.75  ! +0.20 Yoo & Aksimentiev, PCCP 2018
+ NC2     OC2D2  -0.15491933384829667540   3.75  ! +0.20 Yoo & Aksimentiev, PCCP 2018
+! guanidinium - phosphate
+ NC2     O2L    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NC2     ON3    -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NC2     OG2P1  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+ NC2     OC2DP  -0.15491933384829667540   3.71  ! +0.16 Yoo & Aksimentiev, JCTC 2018
+
+END
+BOMLEV @bom @PARA
+WRNLEV @wrn @PARA
+
+return

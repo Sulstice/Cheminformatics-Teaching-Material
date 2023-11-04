@@ -1,0 +1,323 @@
+* Atomic radii for Poisson-Boltzmann calculations derived from average 
+* solvent electrostatic charge distribution with explicit solvent.
+* Accuracy tested with free energy perturbation with explicit solvent
+*
+
+! Radii for protein atoms in 20 standard amino acids
+! Authors:  Mafalda Nina, Dmitrii Belogv, and Benoit Roux
+! University of Montreal, June 1996.
+! M. Nina and B. Roux. "Atomic Radii for Continuum Electrostatics 
+! Calculations Based on Molecular Dynamics Free Energy Simulations", 
+! J. Phys. Chem. B 101: 5239-5248 (1997).
+ 
+! Radii for nucleic acid atoms (RNA and DNA)
+! Authors:  Nilesh Banavali and Benoit Roux
+! Cornell University, June 2002.
+! N.K. Banavali and B. Roux, "Atomic Radii for Continuum Electrostatics 
+! Calculations on Nucleic Acids", J. Phys.  Chem. B 106:11026-11035 (2002). 
+
+
+! UPDATES:
+! --------
+!
+! December 1998:  GLU and ASP modified by Mafalda Nina.
+! January  1999:  Protonated histidine HSP has been included by Mafalda Nina, 
+!                 dG_elec = -68.15 kcal/mol (MD/FES) or -68.10 kcal/mol (PBEQ).
+! January  1999:  TEA and ions added by Benoit Roux. 
+! November 2000:  Na+ added by Benoit Roux.
+! June     2001:  All nucleic acid atoms added by Nilesh Banavali.
+
+
+     
+! Set to zero all H radii
+scalar wmain set 0.0 sele chem H* end
+
+! Set heavy atoms to average default values 
+!scalar wmain set 2.3 sele chem C* end 
+!scalar wmain set 1.8 sele chem O* end
+!scalar wmain set 2.3 sele chem N* end
+!scalar wmain set 2.3 sele chem S* end
+
+!Patches CT3 N-Methylamide C-terminus
+!        ACE acetylated N-terminus (ACP for PRO)
+scalar wmain set 2.06 sele (type CAY .or. type CAT) end
+scalar wmain set 2.04 sele type CY end
+scalar wmain set 1.52 sele type OY end
+scalar wmain set 2.23 sele type NT end
+scalar wmain set 1.40 sele type OT* end ! for COO- terminus
+
+!Backbone
+scalar wmain set 2.04 sele type C  end
+       ! for peptide bond
+scalar wmain set 1.52 sele type O  end
+       ! for peptide bond
+scalar wmain set 2.23 sele type N  end
+       ! for peptide bond
+scalar wmain set 2.86 sele type CA  end
+       ! for all CA except GLY
+scalar wmain set 2.38 sele (resnam GLY .and. type CA) end
+scalar wmain set 2.38 sele (resnam BGLY .and. type CA) end
+       ! for GLY only
+scalar wmain set 2.38 sele type CB2 end
+
+!Hydrogens
+scalar wmain set 0.00 sele type H* end
+       ! for all hydrogens
+
+!Carbons 
+scalar wmain set 2.67 sele type CB end
+       ! for all residues
+scalar wmain set 2.46 sele type CG* end 
+       ! for ARG, GLN, ILE, LYS, MET, PHE, THR, TRP, VAL, HSP, HSD, HSE 
+scalar wmain set 2.77 sele resnam GLU .and. type CG end 
+scalar wmain set 2.77 sele resnam BGLU .and. type CG end 
+       ! for GLU only
+scalar wmain set 2.44 sele type CD* end 
+       ! for ARG, ILE, LEU, LYS
+scalar wmain set 1.98 sele (resnam GLN .and. type CD) .or. (resnam ASN .and. type CG) .or. - 
+                           (resnam GLU .and. type CD) .or. (resnam ASP .and. type CG) end  
+scalar wmain set 1.98 sele (resnam BGLN .and. type CD) .or. (resnam BASN .and. type CG) .or. - 
+                           (resnam BGLU .and. type CD) .or. (resnam BASP .and. type CG) end  
+       ! for ASP, GLU, ASN, GLN 
+scalar wmain set 1.98 sele (resnam PRO .and. (type CB .or. type CG .or. type CD)) end
+scalar wmain set 1.98 sele (resnam BPRO .and. (type CB .or. type CG .or. type CD)) end
+       ! for PRO only
+scalar wmain set 2.00 sele (resnam TYR .and. (type CE* .or. type CD* .or. -
+                          type CZ)) .or. (resnam PHE .and. (type CE* .or. -
+                          type CD* .or. type CZ))  end
+scalar wmain set 2.00 sele (resnam BTYR .and. (type CE* .or. type CD* .or. -
+                          type CZ)) .or. (resnam BPHE .and. (type CE* .or. -
+                          type CD* .or. type CZ))  end
+       ! for TYR, PHE rings 
+scalar wmain set 1.78 sele (resnam TRP .and. (type CE* .or. type CD* .or. - 
+                          type CZ* .or. type CH2)) end
+scalar wmain set 1.78 sele (resnam BTRP .and. (type CE* .or. type CD* .or. - 
+                          type CZ* .or. type CH2)) end
+       ! for TRP ring only
+scalar wmain set 2.10 sele type CE end
+       ! for MET only
+scalar wmain set 2.80 sele (resnam ARG .and. type CZ) .or. (resnam LYS .and. type CE) end
+scalar wmain set 2.80 sele (resnam BARG .and. type CZ) .or. (resnam BLYS .and. type CE) end
+scalar wmain set 2.80 sele (resnam BORN .and. type CE) end
+       ! for ARG, LYS
+scalar wmain set 1.98 select (( resnam HSD .or. resnam HSE .or. resnam HSP) .and. type CE1) -
+       .or. (( resnam HSD .or. resnam HSE .or. resnam HSP)  .and. type CD2) end
+scalar wmain set 1.98 select (( resnam BHSD .or. resnam BHSE .or. resnam BHSP) .and. type CE1) -
+       .or. (( resnam BHSD .or. resnam BHSE .or. resnam BHSP)  .and. type CD2) end
+       ! for neutral HSD and protonated HSP 
+
+!Oxygens
+scalar wmain set 1.40 sele (resnam GLU .or. resnam ASP) .and. (type OE* .or. type OD*) end
+scalar wmain set 1.40 sele (resnam BGLU .or. resnam BASP) .and. (type OE* .or. type OD*) end
+       ! for GLU, ASP
+scalar wmain set 1.42 sele (resnam ASN .or. resnam GLN) .and. (type OE* .or. type OD*) end
+scalar wmain set 1.42 sele (resnam BASN .or. resnam BGLN) .and. (type OE* .or. type OD*) end
+       ! for ASN, GLN
+scalar wmain set 1.64 sele type OG* end
+       ! for SER, THR
+scalar wmain set 1.85 sele (resnam TYR .and. type OH) end
+scalar wmain set 1.85 sele (resnam BTYR .and. type OH) end
+       ! for TYR only
+scalar wmain set 2.2 select resname TIP3 .and. type OH2 end
+       ! for explicit water molecules                                                                                
+
+!Nitrogens
+scalar wmain set 1.80 sele resnam HSD  .and. (type NE2 .or. type ND1) end
+scalar wmain set 1.80 sele resnam BHSD  .and. (type NE2 .or. type ND1) end
+       ! for neutral HSD 
+scalar wmain set 1.80 sele resnam HSE  .and. (type NE2 .or. type ND1) end
+scalar wmain set 1.80 sele resnam BHSE  .and. (type NE2 .or. type ND1) end
+       ! for neutral HSE 
+scalar wmain set 2.30 sele resnam HSP  .and. (type NE2 .or. type ND1) end
+scalar wmain set 2.30 sele resnam BHSP  .and. (type NE2 .or. type ND1) end
+       ! for protonated HSP 
+scalar wmain set 2.13 sele resnam ARG .and. (type NH* .or. type NE) .or. -
+                      (resnam LYS .and. type NZ) end
+scalar wmain set 2.13 sele resnam BARG .and. (type NH* .or. type NE) .or. -
+                      (resnam BLYS .and. type NZ) end
+scalar wmain set 2.13 sele (resnam BORN .and. type NZ) end
+       ! for ARG, LYS
+scalar wmain set 2.15 sele (resnam GLN .and. type NE2) .or. (resnam ASN .and. type ND2) end 
+scalar wmain set 2.15 sele (resnam BGLN .and. type NE2) .or. (resnam BASN .and. type ND2) end 
+       ! for GLN, ASN
+scalar wmain set 2.40 sele resnam TRP .and. type NE1 end
+scalar wmain set 2.40 sele resnam BTRP .and. type NE1 end
+       ! for TRP
+
+!Sulphur
+scalar wmain set 2.00 sele type S* end
+       ! for MET, CYS
+
+
+!Ions
+scalar wmain set 2.035 select resname POT end
+       !potassium ion K+
+
+scalar wmain set 2.035 select resname CLA end
+       !chloride ion Cl-
+
+scalar wmain set 1.66 select resname SOD end
+       !sodium ion Na+
+              
+scalar wmain set 2.15 sele resnam TEA .and. type N end
+scalar wmain set 2.30 sele ( type C1 .or. type C2 .or. type C3 .or. type C4 ) .and. resnam TEA end
+scalar wmain set 2.30 sele ( type C5 .or. type C6 .or. type C7 .or. type C8 ) .and. resnam TEA end
+       ! Tetramethylamonium (TEA)
+
+!...................................................................................................
+! Nucleic acid atomic radii for PB calculations (N. Banavali)
+
+if @?factor eq 0 set factor = 1
+
+! Set all H radii to 0.0
+calc radius = 0.0*@factor
+scalar wmain set @radius sele chem H* end
+
+! purine base atoms
+calc radius = 1.75*@factor
+scalar wmain set @radius sele resn ade .and. type n1 end
+calc radius = 2.15*@factor
+scalar wmain set @radius sele resn gua .and. type n1 end
+calc radius = 2.15*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type c2 end
+calc radius = 1.69*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type n3 end
+calc radius = 2.12*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type c4 end
+calc radius = 2.12*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type c5 end
+calc radius = 2.12*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type c6 end
+calc radius = 1.69*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type n7 end
+calc radius = 2.12*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type c8 end
+calc radius = 2.13*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type n9 end
+calc radius = 2.17*@factor
+scalar wmain set @radius sele resn ade .and. type n6 end
+calc radius = 1.55*@factor
+scalar wmain set @radius sele resn gua .and. type o6 end
+calc radius = 2.12*@factor
+scalar wmain set @radius sele resn gua .and. type n2 end
+
+calc radius = 2.30*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade) .and. type c9 end
+
+! pyrimidine base atoms
+calc radius = 2.20*@factor
+scalar wmain set @radius sele (resn cyt .or. resn thy .or. resn ura) .and. type n1 end
+calc radius = 2.04*@factor
+scalar wmain set @radius sele (resn cyt .or. resn thy .or. resn ura) .and. type c2 end
+calc radius = 1.68*@factor
+scalar wmain set @radius sele resn cyt .and. type n3 end
+calc radius = 2.20*@factor
+scalar wmain set @radius sele (resn thy .or. resn ura) .and. type n3 end
+calc radius = 2.12*@factor
+scalar wmain set @radius sele (resn cyt .or. resn thy .or. resn ura) .and. type c4 end
+calc radius = 2.25*@factor
+scalar wmain set @radius sele (resn cyt .or. resn thy .or. resn ura) .and. type c5 end
+calc radius = 2.25*@factor
+scalar wmain set @radius sele (resn cyt .or. resn thy .or. resn ura) .and. type c6 end
+calc radius = 1.60*@factor
+scalar wmain set @radius sele (resn cyt .or. resn thy .or. resn ura) .and. type o2 end
+calc radius = 2.08*@factor
+scalar wmain set @radius sele resn cyt .and. type n4 end
+calc radius = 1.60*@factor
+scalar wmain set @radius sele (resn thy .or. resn ura) .and. type o4 end
+calc radius = 2.30*@factor
+scalar wmain set @radius sele resn thy .and. type c5m end
+
+calc radius = 2.30*@factor
+scalar wmain set @radius sele (resn cyt .or. resn thy .or. resn ura) .and. type c1 end
+
+! sugar atoms
+calc radius = 2.57*@factor
+scalar wmain set @radius sele type c1' end
+calc radius = 2.70*@factor
+scalar wmain set @radius sele type c2' end
+calc radius = 2.73*@factor
+scalar wmain set @radius sele type c3' end
+calc radius = 2.50*@factor
+scalar wmain set @radius sele type c4' end
+calc radius = 1.55*@factor
+scalar wmain set @radius sele type o4' end
+calc radius = 2.57*@factor
+scalar wmain set @radius sele type c5' end
+calc radius = 1.65*@factor
+scalar wmain set @radius sele type o3' end
+calc radius = 1.65*@factor
+scalar wmain set @radius sele type o5' end
+calc radius = 1.75*@factor
+scalar wmain set @radius sele type o2' end
+
+! add radii for blocking group hydroxyl oxygens
+define oter  sele (type o3' .or. type o5') .and. .bonded. (type h3t .or. type h5t) end
+calc radius = 1.72*@factor
+scalar wmain set @radius sele oter end
+
+! atoms for sugar2phos
+calc radius = 1.65*@factor
+scalar wmain set @radius sele resn ade .and. type o5t  end
+calc radius = 2.30*@factor
+scalar wmain set @radius sele resn ade .and. type c5t  end
+calc radius = 2.35*@factor
+scalar wmain set @radius sele resn ade .and. type p3   end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele resn ade .and. type o1p3 end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele resn ade .and. type o2p3 end
+calc radius = 1.65*@factor
+scalar wmain set @radius sele resn ade .and. type o3t  end
+calc radius = 2.30*@factor
+scalar wmain set @radius sele resn ade .and. type c3t  end
+
+! phosphate atoms
+calc radius = 2.35*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade .or. resn cyt -
+                    .or. resn thy .or. resn ura) .and. type p end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade .or. resn cyt -
+                    .or. resn thy .or. resn ura) .and. type o1p end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele (resn gua .or. resn ade .or. resn cyt -
+                    .or. resn thy .or. resn ura) .and. type o2p end
+
+! dmpa phosphate atoms, from above radii
+calc radius = 2.35*@factor
+scalar wmain set @radius sele resn dmpa .and. type p1 end
+calc radius = 1.65*@factor
+scalar wmain set @radius sele resn dmpa .and. type o1 end
+calc radius = 1.65*@factor
+scalar wmain set @radius sele resn dmpa .and. type o2 end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele resn dmpa .and. type o3 end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele resn dmpa .and. type o4 end
+calc radius = 2.30*@factor
+scalar wmain set @radius sele resn dmpa .and. type c1 end
+calc radius = 2.30*@factor
+scalar wmain set @radius sele resn dmpa .and. type c2 end
+
+! phosphate atoms in ADP or ATP
+calc radius = 2.35*@factor
+scalar wmain set @radius sele type pa .or. type pb .or. type pg end
+calc radius = 1.65*@factor
+scalar wmain set @radius sele (resn atp .and. ( type o3a .or. type o3b)) .or. -
+                              (resn adp .and. ( type o3a)) end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele type o1a .or. type o2a .or. type o1b .or. type o2b -
+                 .or. type o1g .or. type o2g .or. type o3g .or. (resn adp .and. type o3b) end
+
+! phosphate atoms in phosphotyrosine and phosphoserine
+calc radius = 2.35*@factor
+scalar wmain set @radius sele (resn tyr .and. type p1) end
+scalar wmain set @radius sele (resn ser .and. type p ) end
+calc radius = 1.49*@factor
+scalar wmain set @radius sele (resn tyr .and. (type o2  .or. type o3  .or. type o4)) end
+scalar wmain set @radius sele (resn ser .and. (type o1p .or. type o2p .or. type o3p .or. type ot )) end
+
+return
+
+
+

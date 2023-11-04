@@ -1,0 +1,44 @@
+* PMF guided optimization of input radii for charged residues
+* J. Chen, W. Im and C. L. Brooks III, JACS (submitted)
+* NOTE: should be used only with GBSW;
+* NOTE: for optimal accuracy in peptide and protein conformational equilibrium,
+*       the modified CMAP in "~toppar/gbsw/par_all22_prot_gbsw.inp" should be used.
+*
+
+! ASP and GLU (no change)
+
+! LYS:
+scalar wmain set 1.8 select resn LYS .and. type NZ end
+
+! ARG:
+scalar wmain set 1.7 select resn ARG .and. ( type NH* .or. type NE ) end
+scalar wmain set 2.2 select resn ARG .and. type CZ end
+
+! GLN and ASN
+scalar wmain set 1.6 select resn GLN .and. type OE1 end
+scalar wmain set 1.6 select resn ASN .and. type OD1 end
+scalar wmain set 2.0 select resn GLN .and. type NE2 end
+scalar wmain set 2.0 select resn ASN .and. type ND2 end
+
+! HSD and HSP: hnd(1.8->1.9), hpnd/hpne(2.3->1.9)
+scalar wmain set 1.9 select resn HSD .and. type ND1 end
+scalar wmain set 1.9 select resn HSP .and. type ND1 end
+scalar wmain set 1.9 select resn HSP .and. type NE2 end
+
+! TRP: NE (2.4->1.8), C*(1.78->2.0)
+scalar wmain set 1.85 select resn TRP .and. type NE1 end
+scalar wmain set 2.0  select resn TRP -
+       .and. (type CE* .or. type CD* .or. type CZ* .or. type CH2) end
+
+! backbone (bb6)
+scalar wmain set 2.03  sele type N  end       !2.23
+scalar wmain set 2.03  sele type NL .or. type NR end  ! alad
+
+! terminus
+scalar wmain set 2.03 sele type NT  end    ! 2.23
+scalar wmain set 2.77 sele type CGY  end   ! from GLU CG
+scalar wmain set 2.67 sele type CAY  end   ! from CB
+scalar wmain set 1.98 sele type CDY  end   ! from GLU CD
+scalar wmain set 1.40 sele type OEY* end   ! from GLU OE*
+scalar wmain set 1.52 sele type OY   end   ! from backbone O
+scalar wmain set 2.04 sele type CY   endi  ! from backbone C

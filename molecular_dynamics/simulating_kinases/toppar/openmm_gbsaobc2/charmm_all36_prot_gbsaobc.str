@@ -1,0 +1,944 @@
+* Stream file for Amber GBSA OBC radii and scale factors
+*
+ 
+! Preset all to vdW radii and scale -1
+scalar wmain = radius select all end
+scalar wmain mult -1 select all end
+scalar wcomp set -1 select all end
+ 
+if ?numnode gt 1 then
+    set pnode = node 0
+else
+     set pnode 0 
+endif
+
+prnlev 0 @pnode
+
+!##### Values For Residue ALA #####
+scalar wmain set 1.706 select resname ALA .and. type N end
+scalar wcomp set 0.79 select resname ALA .and. type N end
+scalar wmain set 1.15 select resname ALA .and. type HN end
+scalar wcomp set 0.85 select resname ALA .and. type HN end
+scalar wmain set 1.9 select resname ALA .and. type CA end
+scalar wcomp set 0.72 select resname ALA .and. type CA end
+scalar wmain set 1.25 select resname ALA .and. type HA end
+scalar wcomp set 0.85 select resname ALA .and. type HA end
+scalar wmain set 1.9 select resname ALA .and. type CB end
+scalar wcomp set 0.72 select resname ALA .and. type CB end
+scalar wmain set 1.25 select resname ALA .and. type HB1 end
+scalar wcomp set 0.85 select resname ALA .and. type HB1 end
+scalar wmain set 1.25 select resname ALA .and. type HB2 end
+scalar wcomp set 0.85 select resname ALA .and. type HB2 end
+scalar wmain set 1.25 select resname ALA .and. type HB3 end
+scalar wcomp set 0.85 select resname ALA .and. type HB3 end
+scalar wmain set 1.875 select resname ALA .and. type C end
+scalar wcomp set 0.72 select resname ALA .and. type C end
+scalar wmain set 1.48 select resname ALA .and. type O end
+scalar wcomp set 0.85 select resname ALA .and. type O end
+!##### Values For Residue ARG #####
+scalar wmain set 1.706 select resname ARG .and. type N end
+scalar wcomp set 0.79 select resname ARG .and. type N end
+scalar wmain set 1.15 select resname ARG .and. type HN end
+scalar wcomp set 0.85 select resname ARG .and. type HN end
+scalar wmain set 1.9 select resname ARG .and. type CA end
+scalar wcomp set 0.72 select resname ARG .and. type CA end
+scalar wmain set 1.25 select resname ARG .and. type HA end
+scalar wcomp set 0.85 select resname ARG .and. type HA end
+scalar wmain set 1.9 select resname ARG .and. type CB end
+scalar wcomp set 0.72 select resname ARG .and. type CB end
+scalar wmain set 1.25 select resname ARG .and. type HB2 end
+scalar wcomp set 0.85 select resname ARG .and. type HB2 end
+scalar wmain set 1.25 select resname ARG .and. type HB1 end
+scalar wcomp set 0.85 select resname ARG .and. type HB1 end
+scalar wmain set 1.9 select resname ARG .and. type CG end
+scalar wcomp set 0.72 select resname ARG .and. type CG end
+scalar wmain set 1.25 select resname ARG .and. type HG2 end
+scalar wcomp set 0.85 select resname ARG .and. type HG2 end
+scalar wmain set 1.25 select resname ARG .and. type HG1 end
+scalar wcomp set 0.85 select resname ARG .and. type HG1 end
+scalar wmain set 1.9 select resname ARG .and. type CD end
+scalar wcomp set 0.72 select resname ARG .and. type CD end
+scalar wmain set 1.25 select resname ARG .and. type HD2 end
+scalar wcomp set 0.85 select resname ARG .and. type HD2 end
+scalar wmain set 1.25 select resname ARG .and. type HD1 end
+scalar wcomp set 0.85 select resname ARG .and. type HD1 end
+scalar wmain set 1.706 select resname ARG .and. type NE end
+scalar wcomp set 0.79 select resname ARG .and. type NE end
+scalar wmain set 1.15 select resname ARG .and. type HE end
+scalar wcomp set 0.85 select resname ARG .and. type HE end
+scalar wmain set 1.875 select resname ARG .and. type CZ end
+scalar wcomp set 0.72 select resname ARG .and. type CZ end
+scalar wmain set 1.706 select resname ARG .and. type NH1 end
+scalar wcomp set 0.79 select resname ARG .and. type NH1 end
+scalar wmain set 1.15 select resname ARG .and. type HH11 end
+scalar wcomp set 0.85 select resname ARG .and. type HH11 end
+scalar wmain set 1.15 select resname ARG .and. type HH12 end
+scalar wcomp set 0.85 select resname ARG .and. type HH12 end
+scalar wmain set 1.706 select resname ARG .and. type NH2 end
+scalar wcomp set 0.79 select resname ARG .and. type NH2 end
+scalar wmain set 1.15 select resname ARG .and. type HH21 end
+scalar wcomp set 0.85 select resname ARG .and. type HH21 end
+scalar wmain set 1.15 select resname ARG .and. type HH22 end
+scalar wcomp set 0.85 select resname ARG .and. type HH22 end
+scalar wmain set 1.875 select resname ARG .and. type C end
+scalar wcomp set 0.72 select resname ARG .and. type C end
+scalar wmain set 1.48 select resname ARG .and. type O end
+scalar wcomp set 0.85 select resname ARG .and. type O end
+!##### Values For Residue ASN #####
+scalar wmain set 1.706 select resname ASN .and. type N end
+scalar wcomp set 0.79 select resname ASN .and. type N end
+scalar wmain set 1.15 select resname ASN .and. type HN end
+scalar wcomp set 0.85 select resname ASN .and. type HN end
+scalar wmain set 1.9 select resname ASN .and. type CA end
+scalar wcomp set 0.72 select resname ASN .and. type CA end
+scalar wmain set 1.25 select resname ASN .and. type HA end
+scalar wcomp set 0.85 select resname ASN .and. type HA end
+scalar wmain set 1.9 select resname ASN .and. type CB end
+scalar wcomp set 0.72 select resname ASN .and. type CB end
+scalar wmain set 1.25 select resname ASN .and. type HB2 end
+scalar wcomp set 0.85 select resname ASN .and. type HB2 end
+scalar wmain set 1.25 select resname ASN .and. type HB1 end
+scalar wcomp set 0.85 select resname ASN .and. type HB1 end
+scalar wmain set 1.875 select resname ASN .and. type CG end
+scalar wcomp set 0.72 select resname ASN .and. type CG end
+scalar wmain set 1.48 select resname ASN .and. type OD1 end
+scalar wcomp set 0.85 select resname ASN .and. type OD1 end
+scalar wmain set 1.706 select resname ASN .and. type ND2 end
+scalar wcomp set 0.79 select resname ASN .and. type ND2 end
+scalar wmain set 1.15 select resname ASN .and. type HD21 end
+scalar wcomp set 0.85 select resname ASN .and. type HD21 end
+scalar wmain set 1.15 select resname ASN .and. type HD22 end
+scalar wcomp set 0.85 select resname ASN .and. type HD22 end
+scalar wmain set 1.875 select resname ASN .and. type C end
+scalar wcomp set 0.72 select resname ASN .and. type C end
+scalar wmain set 1.48 select resname ASN .and. type O end
+scalar wcomp set 0.85 select resname ASN .and. type O end
+!##### Values For Residue ASP #####
+scalar wmain set 1.706 select resname ASP .and. type N end
+scalar wcomp set 0.79 select resname ASP .and. type N end
+scalar wmain set 1.15 select resname ASP .and. type HN end
+scalar wcomp set 0.85 select resname ASP .and. type HN end
+scalar wmain set 1.9 select resname ASP .and. type CA end
+scalar wcomp set 0.72 select resname ASP .and. type CA end
+scalar wmain set 1.25 select resname ASP .and. type HA end
+scalar wcomp set 0.85 select resname ASP .and. type HA end
+scalar wmain set 1.9 select resname ASP .and. type CB end
+scalar wcomp set 0.72 select resname ASP .and. type CB end
+scalar wmain set 1.25 select resname ASP .and. type HB2 end
+scalar wcomp set 0.85 select resname ASP .and. type HB2 end
+scalar wmain set 1.25 select resname ASP .and. type HB1 end
+scalar wcomp set 0.85 select resname ASP .and. type HB1 end
+scalar wmain set 1.875 select resname ASP .and. type CG end
+scalar wcomp set 0.72 select resname ASP .and. type CG end
+scalar wmain set 1.48 select resname ASP .and. type OD1 end
+scalar wcomp set 0.85 select resname ASP .and. type OD1 end
+scalar wmain set 1.48 select resname ASP .and. type OD2 end
+scalar wcomp set 0.85 select resname ASP .and. type OD2 end
+scalar wmain set 1.875 select resname ASP .and. type C end
+scalar wcomp set 0.72 select resname ASP .and. type C end
+scalar wmain set 1.48 select resname ASP .and. type O end
+scalar wcomp set 0.85 select resname ASP .and. type O end
+!##### Values For Residue CYS #####
+scalar wmain set 1.706 select resname CYS .and. type N end
+scalar wcomp set 0.79 select resname CYS .and. type N end
+scalar wmain set 1.15 select resname CYS .and. type HN end
+scalar wcomp set 0.85 select resname CYS .and. type HN end
+scalar wmain set 1.9 select resname CYS .and. type CA end
+scalar wcomp set 0.72 select resname CYS .and. type CA end
+scalar wmain set 1.25 select resname CYS .and. type HA end
+scalar wcomp set 0.85 select resname CYS .and. type HA end
+scalar wmain set 1.9 select resname CYS .and. type CB end
+scalar wcomp set 0.72 select resname CYS .and. type CB end
+scalar wmain set 1.25 select resname CYS .and. type HB2 end
+scalar wcomp set 0.85 select resname CYS .and. type HB2 end
+scalar wmain set 1.25 select resname CYS .and. type HB1 end
+scalar wcomp set 0.85 select resname CYS .and. type HB1 end
+scalar wmain set 1.775 select resname CYS .and. type SG end
+scalar wcomp set 0.96 select resname CYS .and. type SG end
+scalar wmain set 1.25 select resname CYS .and. type HG1 end
+scalar wcomp set 0.85 select resname CYS .and. type HG1 end
+scalar wmain set 1.875 select resname CYS .and. type C end
+scalar wcomp set 0.72 select resname CYS .and. type C end
+scalar wmain set 1.48 select resname CYS .and. type O end
+scalar wcomp set 0.85 select resname CYS .and. type O end
+!##### Values For Residue GLN #####
+scalar wmain set 1.706 select resname GLN .and. type N end
+scalar wcomp set 0.79 select resname GLN .and. type N end
+scalar wmain set 1.15 select resname GLN .and. type HN end
+scalar wcomp set 0.85 select resname GLN .and. type HN end
+scalar wmain set 1.9 select resname GLN .and. type CA end
+scalar wcomp set 0.72 select resname GLN .and. type CA end
+scalar wmain set 1.25 select resname GLN .and. type HA end
+scalar wcomp set 0.85 select resname GLN .and. type HA end
+scalar wmain set 1.9 select resname GLN .and. type CB end
+scalar wcomp set 0.72 select resname GLN .and. type CB end
+scalar wmain set 1.25 select resname GLN .and. type HB2 end
+scalar wcomp set 0.85 select resname GLN .and. type HB2 end
+scalar wmain set 1.25 select resname GLN .and. type HB1 end
+scalar wcomp set 0.85 select resname GLN .and. type HB1 end
+scalar wmain set 1.9 select resname GLN .and. type CG end
+scalar wcomp set 0.72 select resname GLN .and. type CG end
+scalar wmain set 1.25 select resname GLN .and. type HG2 end
+scalar wcomp set 0.85 select resname GLN .and. type HG2 end
+scalar wmain set 1.25 select resname GLN .and. type HG1 end
+scalar wcomp set 0.85 select resname GLN .and. type HG1 end
+scalar wmain set 1.875 select resname GLN .and. type CD end
+scalar wcomp set 0.72 select resname GLN .and. type CD end
+scalar wmain set 1.48 select resname GLN .and. type OE1 end
+scalar wcomp set 0.85 select resname GLN .and. type OE1 end
+scalar wmain set 1.706 select resname GLN .and. type NE2 end
+scalar wcomp set 0.79 select resname GLN .and. type NE2 end
+scalar wmain set 1.15 select resname GLN .and. type HE21 end
+scalar wcomp set 0.85 select resname GLN .and. type HE21 end
+scalar wmain set 1.15 select resname GLN .and. type HE22 end
+scalar wcomp set 0.85 select resname GLN .and. type HE22 end
+scalar wmain set 1.875 select resname GLN .and. type C end
+scalar wcomp set 0.72 select resname GLN .and. type C end
+scalar wmain set 1.48 select resname GLN .and. type O end
+scalar wcomp set 0.85 select resname GLN .and. type O end
+!##### Values For Residue GLU #####
+scalar wmain set 1.706 select resname GLU .and. type N end
+scalar wcomp set 0.79 select resname GLU .and. type N end
+scalar wmain set 1.15 select resname GLU .and. type HN end
+scalar wcomp set 0.85 select resname GLU .and. type HN end
+scalar wmain set 1.9 select resname GLU .and. type CA end
+scalar wcomp set 0.72 select resname GLU .and. type CA end
+scalar wmain set 1.25 select resname GLU .and. type HA end
+scalar wcomp set 0.85 select resname GLU .and. type HA end
+scalar wmain set 1.9 select resname GLU .and. type CB end
+scalar wcomp set 0.72 select resname GLU .and. type CB end
+scalar wmain set 1.25 select resname GLU .and. type HB2 end
+scalar wcomp set 0.85 select resname GLU .and. type HB2 end
+scalar wmain set 1.25 select resname GLU .and. type HB1 end
+scalar wcomp set 0.85 select resname GLU .and. type HB1 end
+scalar wmain set 1.9 select resname GLU .and. type CG end
+scalar wcomp set 0.72 select resname GLU .and. type CG end
+scalar wmain set 1.25 select resname GLU .and. type HG2 end
+scalar wcomp set 0.85 select resname GLU .and. type HG2 end
+scalar wmain set 1.25 select resname GLU .and. type HG1 end
+scalar wcomp set 0.85 select resname GLU .and. type HG1 end
+scalar wmain set 1.875 select resname GLU .and. type CD end
+scalar wcomp set 0.72 select resname GLU .and. type CD end
+scalar wmain set 1.48 select resname GLU .and. type OE1 end
+scalar wcomp set 0.85 select resname GLU .and. type OE1 end
+scalar wmain set 1.48 select resname GLU .and. type OE2 end
+scalar wcomp set 0.85 select resname GLU .and. type OE2 end
+scalar wmain set 1.875 select resname GLU .and. type C end
+scalar wcomp set 0.72 select resname GLU .and. type C end
+scalar wmain set 1.48 select resname GLU .and. type O end
+scalar wcomp set 0.85 select resname GLU .and. type O end
+!##### Values For Residue GLY #####
+scalar wmain set 1.706 select resname GLY .and. type N end
+scalar wcomp set 0.79 select resname GLY .and. type N end
+scalar wmain set 1.15 select resname GLY .and. type HN end
+scalar wcomp set 0.85 select resname GLY .and. type HN end
+scalar wmain set 1.9 select resname GLY .and. type CA end
+scalar wcomp set 0.72 select resname GLY .and. type CA end
+scalar wmain set 1.25 select resname GLY .and. type HA2 end
+scalar wcomp set 0.85 select resname GLY .and. type HA2 end
+scalar wmain set 1.25 select resname GLY .and. type HA1 end
+scalar wcomp set 0.85 select resname GLY .and. type HA1 end
+scalar wmain set 1.875 select resname GLY .and. type C end
+scalar wcomp set 0.72 select resname GLY .and. type C end
+scalar wmain set 1.48 select resname GLY .and. type O end
+scalar wcomp set 0.85 select resname GLY .and. type O end
+!##### Values For Residue HSD #####
+scalar wmain set 1.706 select resname HSD .and. type N end
+scalar wcomp set 0.79 select resname HSD .and. type N end
+scalar wmain set 1.15 select resname HSD .and. type HN end
+scalar wcomp set 0.85 select resname HSD .and. type HN end
+scalar wmain set 1.9 select resname HSD .and. type CA end
+scalar wcomp set 0.72 select resname HSD .and. type CA end
+scalar wmain set 1.25 select resname HSD .and. type HA end
+scalar wcomp set 0.85 select resname HSD .and. type HA end
+scalar wmain set 1.9 select resname HSD .and. type CB end
+scalar wcomp set 0.72 select resname HSD .and. type CB end
+scalar wmain set 1.25 select resname HSD .and. type HB2 end
+scalar wcomp set 0.85 select resname HSD .and. type HB2 end
+scalar wmain set 1.25 select resname HSD .and. type HB1 end
+scalar wcomp set 0.85 select resname HSD .and. type HB1 end
+scalar wmain set 1.875 select resname HSD .and. type CG end
+scalar wcomp set 0.72 select resname HSD .and. type CG end
+scalar wmain set 1.706 select resname HSD .and. type ND1 end
+scalar wcomp set 0.79 select resname HSD .and. type ND1 end
+scalar wmain set 1.15 select resname HSD .and. type HD1 end
+scalar wcomp set 0.85 select resname HSD .and. type HD1 end
+scalar wmain set 1.875 select resname HSD .and. type CE1 end
+scalar wcomp set 0.72 select resname HSD .and. type CE1 end
+scalar wmain set 1.25 select resname HSD .and. type HE1 end
+scalar wcomp set 0.85 select resname HSD .and. type HE1 end
+scalar wmain set 1.706 select resname HSD .and. type NE2 end
+scalar wcomp set 0.79 select resname HSD .and. type NE2 end
+scalar wmain set 1.875 select resname HSD .and. type CD2 end
+scalar wcomp set 0.72 select resname HSD .and. type CD2 end
+scalar wmain set 1.25 select resname HSD .and. type HD2 end
+scalar wcomp set 0.85 select resname HSD .and. type HD2 end
+scalar wmain set 1.875 select resname HSD .and. type C end
+scalar wcomp set 0.72 select resname HSD .and. type C end
+scalar wmain set 1.48 select resname HSD .and. type O end
+scalar wcomp set 0.85 select resname HSD .and. type O end
+!##### Values For Residue HSE #####
+scalar wmain set 1.706 select resname HSE .and. type N end
+scalar wcomp set 0.79 select resname HSE .and. type N end
+scalar wmain set 1.15 select resname HSE .and. type HN end
+scalar wcomp set 0.85 select resname HSE .and. type HN end
+scalar wmain set 1.9 select resname HSE .and. type CA end
+scalar wcomp set 0.72 select resname HSE .and. type CA end
+scalar wmain set 1.25 select resname HSE .and. type HA end
+scalar wcomp set 0.85 select resname HSE .and. type HA end
+scalar wmain set 1.9 select resname HSE .and. type CB end
+scalar wcomp set 0.72 select resname HSE .and. type CB end
+scalar wmain set 1.25 select resname HSE .and. type HB2 end
+scalar wcomp set 0.85 select resname HSE .and. type HB2 end
+scalar wmain set 1.25 select resname HSE .and. type HB1 end
+scalar wcomp set 0.85 select resname HSE .and. type HB1 end
+scalar wmain set 1.875 select resname HSE .and. type CG end
+scalar wcomp set 0.72 select resname HSE .and. type CG end
+scalar wmain set 1.706 select resname HSE .and. type ND1 end
+scalar wcomp set 0.79 select resname HSE .and. type ND1 end
+scalar wmain set 1.875 select resname HSE .and. type CE1 end
+scalar wcomp set 0.72 select resname HSE .and. type CE1 end
+scalar wmain set 1.25 select resname HSE .and. type HE1 end
+scalar wcomp set 0.85 select resname HSE .and. type HE1 end
+scalar wmain set 1.706 select resname HSE .and. type NE2 end
+scalar wcomp set 0.79 select resname HSE .and. type NE2 end
+scalar wmain set 1.15 select resname HSE .and. type HE2 end
+scalar wcomp set 0.85 select resname HSE .and. type HE2 end
+scalar wmain set 1.875 select resname HSE .and. type CD2 end
+scalar wcomp set 0.72 select resname HSE .and. type CD2 end
+scalar wmain set 1.25 select resname HSE .and. type HD2 end
+scalar wcomp set 0.85 select resname HSE .and. type HD2 end
+scalar wmain set 1.875 select resname HSE .and. type C end
+scalar wcomp set 0.72 select resname HSE .and. type C end
+scalar wmain set 1.48 select resname HSE .and. type O end
+scalar wcomp set 0.85 select resname HSE .and. type O end
+!##### Values For Residue HSP #####
+scalar wmain set 1.706 select resname HSP .and. type N end
+scalar wcomp set 0.79 select resname HSP .and. type N end
+scalar wmain set 1.15 select resname HSP .and. type HN end
+scalar wcomp set 0.85 select resname HSP .and. type HN end
+scalar wmain set 1.9 select resname HSP .and. type CA end
+scalar wcomp set 0.72 select resname HSP .and. type CA end
+scalar wmain set 1.25 select resname HSP .and. type HA end
+scalar wcomp set 0.85 select resname HSP .and. type HA end
+scalar wmain set 1.9 select resname HSP .and. type CB end
+scalar wcomp set 0.72 select resname HSP .and. type CB end
+scalar wmain set 1.25 select resname HSP .and. type HB2 end
+scalar wcomp set 0.85 select resname HSP .and. type HB2 end
+scalar wmain set 1.25 select resname HSP .and. type HB1 end
+scalar wcomp set 0.85 select resname HSP .and. type HB1 end
+scalar wmain set 1.875 select resname HSP .and. type CG end
+scalar wcomp set 0.72 select resname HSP .and. type CG end
+scalar wmain set 1.706 select resname HSP .and. type ND1 end
+scalar wcomp set 0.79 select resname HSP .and. type ND1 end
+scalar wmain set 1.15 select resname HSP .and. type HD1 end
+scalar wcomp set 0.85 select resname HSP .and. type HD1 end
+scalar wmain set 1.875 select resname HSP .and. type CE1 end
+scalar wcomp set 0.72 select resname HSP .and. type CE1 end
+scalar wmain set 1.25 select resname HSP .and. type HE1 end
+scalar wcomp set 0.85 select resname HSP .and. type HE1 end
+scalar wmain set 1.706 select resname HSP .and. type NE2 end
+scalar wcomp set 0.79 select resname HSP .and. type NE2 end
+scalar wmain set 1.15 select resname HSP .and. type HE2 end
+scalar wcomp set 0.85 select resname HSP .and. type HE2 end
+scalar wmain set 1.875 select resname HSP .and. type CD2 end
+scalar wcomp set 0.72 select resname HSP .and. type CD2 end
+scalar wmain set 1.25 select resname HSP .and. type HD2 end
+scalar wcomp set 0.85 select resname HSP .and. type HD2 end
+scalar wmain set 1.875 select resname HSP .and. type C end
+scalar wcomp set 0.72 select resname HSP .and. type C end
+scalar wmain set 1.48 select resname HSP .and. type O end
+scalar wcomp set 0.85 select resname HSP .and. type O end
+!##### Values For Residue ILE #####
+scalar wmain set 1.706 select resname ILE .and. type N end
+scalar wcomp set 0.79 select resname ILE .and. type N end
+scalar wmain set 1.15 select resname ILE .and. type HN end
+scalar wcomp set 0.85 select resname ILE .and. type HN end
+scalar wmain set 1.9 select resname ILE .and. type CA end
+scalar wcomp set 0.72 select resname ILE .and. type CA end
+scalar wmain set 1.25 select resname ILE .and. type HA end
+scalar wcomp set 0.85 select resname ILE .and. type HA end
+scalar wmain set 1.9 select resname ILE .and. type CB end
+scalar wcomp set 0.72 select resname ILE .and. type CB end
+scalar wmain set 1.25 select resname ILE .and. type HB end
+scalar wcomp set 0.85 select resname ILE .and. type HB end
+scalar wmain set 1.9 select resname ILE .and. type CG2 end
+scalar wcomp set 0.72 select resname ILE .and. type CG2 end
+scalar wmain set 1.25 select resname ILE .and. type HG21 end
+scalar wcomp set 0.85 select resname ILE .and. type HG21 end
+scalar wmain set 1.25 select resname ILE .and. type HG22 end
+scalar wcomp set 0.85 select resname ILE .and. type HG22 end
+scalar wmain set 1.25 select resname ILE .and. type HG23 end
+scalar wcomp set 0.85 select resname ILE .and. type HG23 end
+scalar wmain set 1.9 select resname ILE .and. type CG1 end
+scalar wcomp set 0.72 select resname ILE .and. type CG1 end
+scalar wmain set 1.25 select resname ILE .and. type HG12 end
+scalar wcomp set 0.85 select resname ILE .and. type HG12 end
+scalar wmain set 1.25 select resname ILE .and. type HG11 end
+scalar wcomp set 0.85 select resname ILE .and. type HG11 end
+scalar wmain set 1.9 select resname ILE .and. type CD end
+scalar wcomp set 0.72 select resname ILE .and. type CD end
+scalar wmain set 1.25 select resname ILE .and. type HD1 end
+scalar wcomp set 0.85 select resname ILE .and. type HD1 end
+scalar wmain set 1.25 select resname ILE .and. type HD2 end
+scalar wcomp set 0.85 select resname ILE .and. type HD2 end
+scalar wmain set 1.25 select resname ILE .and. type HD3 end
+scalar wcomp set 0.85 select resname ILE .and. type HD3 end
+scalar wmain set 1.875 select resname ILE .and. type C end
+scalar wcomp set 0.72 select resname ILE .and. type C end
+scalar wmain set 1.48 select resname ILE .and. type O end
+scalar wcomp set 0.85 select resname ILE .and. type O end
+!##### Values For Residue LEU #####
+scalar wmain set 1.706 select resname LEU .and. type N end
+scalar wcomp set 0.79 select resname LEU .and. type N end
+scalar wmain set 1.15 select resname LEU .and. type HN end
+scalar wcomp set 0.85 select resname LEU .and. type HN end
+scalar wmain set 1.9 select resname LEU .and. type CA end
+scalar wcomp set 0.72 select resname LEU .and. type CA end
+scalar wmain set 1.25 select resname LEU .and. type HA end
+scalar wcomp set 0.85 select resname LEU .and. type HA end
+scalar wmain set 1.9 select resname LEU .and. type CB end
+scalar wcomp set 0.72 select resname LEU .and. type CB end
+scalar wmain set 1.25 select resname LEU .and. type HB2 end
+scalar wcomp set 0.85 select resname LEU .and. type HB2 end
+scalar wmain set 1.25 select resname LEU .and. type HB1 end
+scalar wcomp set 0.85 select resname LEU .and. type HB1 end
+scalar wmain set 1.9 select resname LEU .and. type CG end
+scalar wcomp set 0.72 select resname LEU .and. type CG end
+scalar wmain set 1.25 select resname LEU .and. type HG end
+scalar wcomp set 0.85 select resname LEU .and. type HG end
+scalar wmain set 1.9 select resname LEU .and. type CD1 end
+scalar wcomp set 0.72 select resname LEU .and. type CD1 end
+scalar wmain set 1.25 select resname LEU .and. type HD11 end
+scalar wcomp set 0.85 select resname LEU .and. type HD11 end
+scalar wmain set 1.25 select resname LEU .and. type HD12 end
+scalar wcomp set 0.85 select resname LEU .and. type HD12 end
+scalar wmain set 1.25 select resname LEU .and. type HD13 end
+scalar wcomp set 0.85 select resname LEU .and. type HD13 end
+scalar wmain set 1.9 select resname LEU .and. type CD2 end
+scalar wcomp set 0.72 select resname LEU .and. type CD2 end
+scalar wmain set 1.25 select resname LEU .and. type HD21 end
+scalar wcomp set 0.85 select resname LEU .and. type HD21 end
+scalar wmain set 1.25 select resname LEU .and. type HD22 end
+scalar wcomp set 0.85 select resname LEU .and. type HD22 end
+scalar wmain set 1.25 select resname LEU .and. type HD23 end
+scalar wcomp set 0.85 select resname LEU .and. type HD23 end
+scalar wmain set 1.875 select resname LEU .and. type C end
+scalar wcomp set 0.72 select resname LEU .and. type C end
+scalar wmain set 1.48 select resname LEU .and. type O end
+scalar wcomp set 0.85 select resname LEU .and. type O end
+!##### Values For Residue LYS #####
+scalar wmain set 1.706 select resname LYS .and. type N end
+scalar wcomp set 0.79 select resname LYS .and. type N end
+scalar wmain set 1.15 select resname LYS .and. type HN end
+scalar wcomp set 0.85 select resname LYS .and. type HN end
+scalar wmain set 1.9 select resname LYS .and. type CA end
+scalar wcomp set 0.72 select resname LYS .and. type CA end
+scalar wmain set 1.25 select resname LYS .and. type HA end
+scalar wcomp set 0.85 select resname LYS .and. type HA end
+scalar wmain set 1.9 select resname LYS .and. type CB end
+scalar wcomp set 0.72 select resname LYS .and. type CB end
+scalar wmain set 1.25 select resname LYS .and. type HB2 end
+scalar wcomp set 0.85 select resname LYS .and. type HB2 end
+scalar wmain set 1.25 select resname LYS .and. type HB1 end
+scalar wcomp set 0.85 select resname LYS .and. type HB1 end
+scalar wmain set 1.9 select resname LYS .and. type CG end
+scalar wcomp set 0.72 select resname LYS .and. type CG end
+scalar wmain set 1.25 select resname LYS .and. type HG2 end
+scalar wcomp set 0.85 select resname LYS .and. type HG2 end
+scalar wmain set 1.25 select resname LYS .and. type HG1 end
+scalar wcomp set 0.85 select resname LYS .and. type HG1 end
+scalar wmain set 1.9 select resname LYS .and. type CD end
+scalar wcomp set 0.72 select resname LYS .and. type CD end
+scalar wmain set 1.25 select resname LYS .and. type HD2 end
+scalar wcomp set 0.85 select resname LYS .and. type HD2 end
+scalar wmain set 1.25 select resname LYS .and. type HD1 end
+scalar wcomp set 0.85 select resname LYS .and. type HD1 end
+scalar wmain set 1.9 select resname LYS .and. type CE end
+scalar wcomp set 0.72 select resname LYS .and. type CE end
+scalar wmain set 1.25 select resname LYS .and. type HE2 end
+scalar wcomp set 0.85 select resname LYS .and. type HE2 end
+scalar wmain set 1.25 select resname LYS .and. type HE1 end
+scalar wcomp set 0.85 select resname LYS .and. type HE1 end
+scalar wmain set 1.625 select resname LYS .and. type NZ end
+scalar wcomp set 0.79 select resname LYS .and. type NZ end
+scalar wmain set 1.15 select resname LYS .and. type HZ1 end
+scalar wcomp set 0.85 select resname LYS .and. type HZ1 end
+scalar wmain set 1.15 select resname LYS .and. type HZ2 end
+scalar wcomp set 0.85 select resname LYS .and. type HZ2 end
+scalar wmain set 1.15 select resname LYS .and. type HZ3 end
+scalar wcomp set 0.85 select resname LYS .and. type HZ3 end
+scalar wmain set 1.875 select resname LYS .and. type C end
+scalar wcomp set 0.72 select resname LYS .and. type C end
+scalar wmain set 1.48 select resname LYS .and. type O end
+scalar wcomp set 0.85 select resname LYS .and. type O end
+!##### Values For Residue MET #####
+scalar wmain set 1.706 select resname MET .and. type N end
+scalar wcomp set 0.79 select resname MET .and. type N end
+scalar wmain set 1.15 select resname MET .and. type HN end
+scalar wcomp set 0.85 select resname MET .and. type HN end
+scalar wmain set 1.9 select resname MET .and. type CA end
+scalar wcomp set 0.72 select resname MET .and. type CA end
+scalar wmain set 1.25 select resname MET .and. type HA end
+scalar wcomp set 0.85 select resname MET .and. type HA end
+scalar wmain set 1.9 select resname MET .and. type CB end
+scalar wcomp set 0.72 select resname MET .and. type CB end
+scalar wmain set 1.25 select resname MET .and. type HB2 end
+scalar wcomp set 0.85 select resname MET .and. type HB2 end
+scalar wmain set 1.25 select resname MET .and. type HB1 end
+scalar wcomp set 0.85 select resname MET .and. type HB1 end
+scalar wmain set 1.9 select resname MET .and. type CG end
+scalar wcomp set 0.72 select resname MET .and. type CG end
+scalar wmain set 1.25 select resname MET .and. type HG2 end
+scalar wcomp set 0.85 select resname MET .and. type HG2 end
+scalar wmain set 1.25 select resname MET .and. type HG1 end
+scalar wcomp set 0.85 select resname MET .and. type HG1 end
+scalar wmain set 1.775 select resname MET .and. type SD end
+scalar wcomp set 0.96 select resname MET .and. type SD end
+scalar wmain set 1.9 select resname MET .and. type CE end
+scalar wcomp set 0.72 select resname MET .and. type CE end
+scalar wmain set 1.25 select resname MET .and. type HE1 end
+scalar wcomp set 0.85 select resname MET .and. type HE1 end
+scalar wmain set 1.25 select resname MET .and. type HE2 end
+scalar wcomp set 0.85 select resname MET .and. type HE2 end
+scalar wmain set 1.25 select resname MET .and. type HE3 end
+scalar wcomp set 0.85 select resname MET .and. type HE3 end
+scalar wmain set 1.875 select resname MET .and. type C end
+scalar wcomp set 0.72 select resname MET .and. type C end
+scalar wmain set 1.48 select resname MET .and. type O end
+scalar wcomp set 0.85 select resname MET .and. type O end
+!##### Values For Residue PHE #####
+scalar wmain set 1.706 select resname PHE .and. type N end
+scalar wcomp set 0.79 select resname PHE .and. type N end
+scalar wmain set 1.15 select resname PHE .and. type HN end
+scalar wcomp set 0.85 select resname PHE .and. type HN end
+scalar wmain set 1.9 select resname PHE .and. type CA end
+scalar wcomp set 0.72 select resname PHE .and. type CA end
+scalar wmain set 1.25 select resname PHE .and. type HA end
+scalar wcomp set 0.85 select resname PHE .and. type HA end
+scalar wmain set 1.9 select resname PHE .and. type CB end
+scalar wcomp set 0.72 select resname PHE .and. type CB end
+scalar wmain set 1.25 select resname PHE .and. type HB2 end
+scalar wcomp set 0.85 select resname PHE .and. type HB2 end
+scalar wmain set 1.25 select resname PHE .and. type HB1 end
+scalar wcomp set 0.85 select resname PHE .and. type HB1 end
+scalar wmain set 1.875 select resname PHE .and. type CG end
+scalar wcomp set 0.72 select resname PHE .and. type CG end
+scalar wmain set 1.875 select resname PHE .and. type CD1 end
+scalar wcomp set 0.72 select resname PHE .and. type CD1 end
+scalar wmain set 1.25 select resname PHE .and. type HD1 end
+scalar wcomp set 0.85 select resname PHE .and. type HD1 end
+scalar wmain set 1.875 select resname PHE .and. type CE1 end
+scalar wcomp set 0.72 select resname PHE .and. type CE1 end
+scalar wmain set 1.25 select resname PHE .and. type HE1 end
+scalar wcomp set 0.85 select resname PHE .and. type HE1 end
+scalar wmain set 1.875 select resname PHE .and. type CZ end
+scalar wcomp set 0.72 select resname PHE .and. type CZ end
+scalar wmain set 1.25 select resname PHE .and. type HZ end
+scalar wcomp set 0.85 select resname PHE .and. type HZ end
+scalar wmain set 1.875 select resname PHE .and. type CE2 end
+scalar wcomp set 0.72 select resname PHE .and. type CE2 end
+scalar wmain set 1.25 select resname PHE .and. type HE2 end
+scalar wcomp set 0.85 select resname PHE .and. type HE2 end
+scalar wmain set 1.875 select resname PHE .and. type CD2 end
+scalar wcomp set 0.72 select resname PHE .and. type CD2 end
+scalar wmain set 1.25 select resname PHE .and. type HD2 end
+scalar wcomp set 0.85 select resname PHE .and. type HD2 end
+scalar wmain set 1.875 select resname PHE .and. type C end
+scalar wcomp set 0.72 select resname PHE .and. type C end
+scalar wmain set 1.48 select resname PHE .and. type O end
+scalar wcomp set 0.85 select resname PHE .and. type O end
+!##### Values For Residue PRO #####
+scalar wmain set 1.706 select resname PRO .and. type N end
+scalar wcomp set 0.79 select resname PRO .and. type N end
+scalar wmain set 1.9 select resname PRO .and. type CD end
+scalar wcomp set 0.72 select resname PRO .and. type CD end
+scalar wmain set 1.25 select resname PRO .and. type HD2 end
+scalar wcomp set 0.85 select resname PRO .and. type HD2 end
+scalar wmain set 1.25 select resname PRO .and. type HD1 end
+scalar wcomp set 0.85 select resname PRO .and. type HD1 end
+scalar wmain set 1.9 select resname PRO .and. type CG end
+scalar wcomp set 0.72 select resname PRO .and. type CG end
+scalar wmain set 1.25 select resname PRO .and. type HG2 end
+scalar wcomp set 0.85 select resname PRO .and. type HG2 end
+scalar wmain set 1.25 select resname PRO .and. type HG1 end
+scalar wcomp set 0.85 select resname PRO .and. type HG1 end
+scalar wmain set 1.9 select resname PRO .and. type CB end
+scalar wcomp set 0.72 select resname PRO .and. type CB end
+scalar wmain set 1.25 select resname PRO .and. type HB2 end
+scalar wcomp set 0.85 select resname PRO .and. type HB2 end
+scalar wmain set 1.25 select resname PRO .and. type HB1 end
+scalar wcomp set 0.85 select resname PRO .and. type HB1 end
+scalar wmain set 1.9 select resname PRO .and. type CA end
+scalar wcomp set 0.72 select resname PRO .and. type CA end
+scalar wmain set 1.25 select resname PRO .and. type HA end
+scalar wcomp set 0.85 select resname PRO .and. type HA end
+scalar wmain set 1.875 select resname PRO .and. type C end
+scalar wcomp set 0.72 select resname PRO .and. type C end
+scalar wmain set 1.48 select resname PRO .and. type O end
+scalar wcomp set 0.85 select resname PRO .and. type O end
+!##### Values For Residue SER #####
+scalar wmain set 1.706 select resname SER .and. type N end
+scalar wcomp set 0.79 select resname SER .and. type N end
+scalar wmain set 1.15 select resname SER .and. type HN end
+scalar wcomp set 0.85 select resname SER .and. type HN end
+scalar wmain set 1.9 select resname SER .and. type CA end
+scalar wcomp set 0.72 select resname SER .and. type CA end
+scalar wmain set 1.25 select resname SER .and. type HA end
+scalar wcomp set 0.85 select resname SER .and. type HA end
+scalar wmain set 1.9 select resname SER .and. type CB end
+scalar wcomp set 0.72 select resname SER .and. type CB end
+scalar wmain set 1.25 select resname SER .and. type HB2 end
+scalar wcomp set 0.85 select resname SER .and. type HB2 end
+scalar wmain set 1.25 select resname SER .and. type HB1 end
+scalar wcomp set 0.85 select resname SER .and. type HB1 end
+scalar wmain set 1.535 select resname SER .and. type OG end
+scalar wcomp set 0.85 select resname SER .and. type OG end
+scalar wmain set 1.05 select resname SER .and. type HG1 end
+scalar wcomp set 0.85 select resname SER .and. type HG1 end
+scalar wmain set 1.875 select resname SER .and. type C end
+scalar wcomp set 0.72 select resname SER .and. type C end
+scalar wmain set 1.48 select resname SER .and. type O end
+scalar wcomp set 0.85 select resname SER .and. type O end
+!##### Values For Residue THR #####
+scalar wmain set 1.706 select resname THR .and. type N end
+scalar wcomp set 0.79 select resname THR .and. type N end
+scalar wmain set 1.15 select resname THR .and. type HN end
+scalar wcomp set 0.85 select resname THR .and. type HN end
+scalar wmain set 1.9 select resname THR .and. type CA end
+scalar wcomp set 0.72 select resname THR .and. type CA end
+scalar wmain set 1.25 select resname THR .and. type HA end
+scalar wcomp set 0.85 select resname THR .and. type HA end
+scalar wmain set 1.9 select resname THR .and. type CB end
+scalar wcomp set 0.72 select resname THR .and. type CB end
+scalar wmain set 1.25 select resname THR .and. type HB end
+scalar wcomp set 0.85 select resname THR .and. type HB end
+scalar wmain set 1.9 select resname THR .and. type CG2 end
+scalar wcomp set 0.72 select resname THR .and. type CG2 end
+scalar wmain set 1.25 select resname THR .and. type HG21 end
+scalar wcomp set 0.85 select resname THR .and. type HG21 end
+scalar wmain set 1.25 select resname THR .and. type HG22 end
+scalar wcomp set 0.85 select resname THR .and. type HG22 end
+scalar wmain set 1.25 select resname THR .and. type HG23 end
+scalar wcomp set 0.85 select resname THR .and. type HG23 end
+scalar wmain set 1.535 select resname THR .and. type OG1 end
+scalar wcomp set 0.85 select resname THR .and. type OG1 end
+scalar wmain set 1.05 select resname THR .and. type HG1 end
+scalar wcomp set 0.85 select resname THR .and. type HG1 end
+scalar wmain set 1.875 select resname THR .and. type C end
+scalar wcomp set 0.72 select resname THR .and. type C end
+scalar wmain set 1.48 select resname THR .and. type O end
+scalar wcomp set 0.85 select resname THR .and. type O end
+!##### Values For Residue TRP #####
+scalar wmain set 1.706 select resname TRP .and. type N end
+scalar wcomp set 0.79 select resname TRP .and. type N end
+scalar wmain set 1.15 select resname TRP .and. type HN end
+scalar wcomp set 0.85 select resname TRP .and. type HN end
+scalar wmain set 1.9 select resname TRP .and. type CA end
+scalar wcomp set 0.72 select resname TRP .and. type CA end
+scalar wmain set 1.25 select resname TRP .and. type HA end
+scalar wcomp set 0.85 select resname TRP .and. type HA end
+scalar wmain set 1.9 select resname TRP .and. type CB end
+scalar wcomp set 0.72 select resname TRP .and. type CB end
+scalar wmain set 1.25 select resname TRP .and. type HB2 end
+scalar wcomp set 0.85 select resname TRP .and. type HB2 end
+scalar wmain set 1.25 select resname TRP .and. type HB1 end
+scalar wcomp set 0.85 select resname TRP .and. type HB1 end
+scalar wmain set 1.875 select resname TRP .and. type CG end
+scalar wcomp set 0.72 select resname TRP .and. type CG end
+scalar wmain set 1.875 select resname TRP .and. type CD1 end
+scalar wcomp set 0.72 select resname TRP .and. type CD1 end
+scalar wmain set 1.25 select resname TRP .and. type HD1 end
+scalar wcomp set 0.85 select resname TRP .and. type HD1 end
+scalar wmain set 1.706 select resname TRP .and. type NE1 end
+scalar wcomp set 0.79 select resname TRP .and. type NE1 end
+scalar wmain set 1.15 select resname TRP .and. type HE1 end
+scalar wcomp set 0.85 select resname TRP .and. type HE1 end
+scalar wmain set 1.875 select resname TRP .and. type CE2 end
+scalar wcomp set 0.72 select resname TRP .and. type CE2 end
+scalar wmain set 1.875 select resname TRP .and. type CZ2 end
+scalar wcomp set 0.72 select resname TRP .and. type CZ2 end
+scalar wmain set 1.25 select resname TRP .and. type HZ2 end
+scalar wcomp set 0.85 select resname TRP .and. type HZ2 end
+scalar wmain set 1.875 select resname TRP .and. type CH2 end
+scalar wcomp set 0.72 select resname TRP .and. type CH2 end
+scalar wmain set 1.25 select resname TRP .and. type HH2 end
+scalar wcomp set 0.85 select resname TRP .and. type HH2 end
+scalar wmain set 1.875 select resname TRP .and. type CZ3 end
+scalar wcomp set 0.72 select resname TRP .and. type CZ3 end
+scalar wmain set 1.25 select resname TRP .and. type HZ3 end
+scalar wcomp set 0.85 select resname TRP .and. type HZ3 end
+scalar wmain set 1.875 select resname TRP .and. type CE3 end
+scalar wcomp set 0.72 select resname TRP .and. type CE3 end
+scalar wmain set 1.25 select resname TRP .and. type HE3 end
+scalar wcomp set 0.85 select resname TRP .and. type HE3 end
+scalar wmain set 1.875 select resname TRP .and. type CD2 end
+scalar wcomp set 0.72 select resname TRP .and. type CD2 end
+scalar wmain set 1.875 select resname TRP .and. type C end
+scalar wcomp set 0.72 select resname TRP .and. type C end
+scalar wmain set 1.48 select resname TRP .and. type O end
+scalar wcomp set 0.85 select resname TRP .and. type O end
+!##### Values For Residue TYR #####
+scalar wmain set 1.706 select resname TYR .and. type N end
+scalar wcomp set 0.79 select resname TYR .and. type N end
+scalar wmain set 1.15 select resname TYR .and. type HN end
+scalar wcomp set 0.85 select resname TYR .and. type HN end
+scalar wmain set 1.9 select resname TYR .and. type CA end
+scalar wcomp set 0.72 select resname TYR .and. type CA end
+scalar wmain set 1.25 select resname TYR .and. type HA end
+scalar wcomp set 0.85 select resname TYR .and. type HA end
+scalar wmain set 1.9 select resname TYR .and. type CB end
+scalar wcomp set 0.72 select resname TYR .and. type CB end
+scalar wmain set 1.25 select resname TYR .and. type HB2 end
+scalar wcomp set 0.85 select resname TYR .and. type HB2 end
+scalar wmain set 1.25 select resname TYR .and. type HB1 end
+scalar wcomp set 0.85 select resname TYR .and. type HB1 end
+scalar wmain set 1.875 select resname TYR .and. type CG end
+scalar wcomp set 0.72 select resname TYR .and. type CG end
+scalar wmain set 1.875 select resname TYR .and. type CD1 end
+scalar wcomp set 0.72 select resname TYR .and. type CD1 end
+scalar wmain set 1.25 select resname TYR .and. type HD1 end
+scalar wcomp set 0.85 select resname TYR .and. type HD1 end
+scalar wmain set 1.875 select resname TYR .and. type CE1 end
+scalar wcomp set 0.72 select resname TYR .and. type CE1 end
+scalar wmain set 1.25 select resname TYR .and. type HE1 end
+scalar wcomp set 0.85 select resname TYR .and. type HE1 end
+scalar wmain set 1.875 select resname TYR .and. type CZ end
+scalar wcomp set 0.72 select resname TYR .and. type CZ end
+scalar wmain set 1.535 select resname TYR .and. type OH end
+scalar wcomp set 0.85 select resname TYR .and. type OH end
+scalar wmain set 1.05 select resname TYR .and. type HH end
+scalar wcomp set 0.85 select resname TYR .and. type HH end
+scalar wmain set 1.875 select resname TYR .and. type CE2 end
+scalar wcomp set 0.72 select resname TYR .and. type CE2 end
+scalar wmain set 1.25 select resname TYR .and. type HE2 end
+scalar wcomp set 0.85 select resname TYR .and. type HE2 end
+scalar wmain set 1.875 select resname TYR .and. type CD2 end
+scalar wcomp set 0.72 select resname TYR .and. type CD2 end
+scalar wmain set 1.25 select resname TYR .and. type HD2 end
+scalar wcomp set 0.85 select resname TYR .and. type HD2 end
+scalar wmain set 1.875 select resname TYR .and. type C end
+scalar wcomp set 0.72 select resname TYR .and. type C end
+scalar wmain set 1.48 select resname TYR .and. type O end
+scalar wcomp set 0.85 select resname TYR .and. type O end
+!##### Values For Residue VAL #####
+scalar wmain set 1.706 select resname VAL .and. type N end
+scalar wcomp set 0.79 select resname VAL .and. type N end
+scalar wmain set 1.15 select resname VAL .and. type HN end
+scalar wcomp set 0.85 select resname VAL .and. type HN end
+scalar wmain set 1.9 select resname VAL .and. type CA end
+scalar wcomp set 0.72 select resname VAL .and. type CA end
+scalar wmain set 1.25 select resname VAL .and. type HA end
+scalar wcomp set 0.85 select resname VAL .and. type HA end
+scalar wmain set 1.9 select resname VAL .and. type CB end
+scalar wcomp set 0.72 select resname VAL .and. type CB end
+scalar wmain set 1.25 select resname VAL .and. type HB end
+scalar wcomp set 0.85 select resname VAL .and. type HB end
+scalar wmain set 1.9 select resname VAL .and. type CG1 end
+scalar wcomp set 0.72 select resname VAL .and. type CG1 end
+scalar wmain set 1.25 select resname VAL .and. type HG11 end
+scalar wcomp set 0.85 select resname VAL .and. type HG11 end
+scalar wmain set 1.25 select resname VAL .and. type HG12 end
+scalar wcomp set 0.85 select resname VAL .and. type HG12 end
+scalar wmain set 1.25 select resname VAL .and. type HG13 end
+scalar wcomp set 0.85 select resname VAL .and. type HG13 end
+scalar wmain set 1.9 select resname VAL .and. type CG2 end
+scalar wcomp set 0.72 select resname VAL .and. type CG2 end
+scalar wmain set 1.25 select resname VAL .and. type HG21 end
+scalar wcomp set 0.85 select resname VAL .and. type HG21 end
+scalar wmain set 1.25 select resname VAL .and. type HG22 end
+scalar wcomp set 0.85 select resname VAL .and. type HG22 end
+scalar wmain set 1.25 select resname VAL .and. type HG23 end
+scalar wcomp set 0.85 select resname VAL .and. type HG23 end
+scalar wmain set 1.875 select resname VAL .and. type C end
+scalar wcomp set 0.72 select resname VAL .and. type C end
+scalar wmain set 1.48 select resname VAL .and. type O end
+scalar wcomp set 0.85 select resname VAL .and. type O end
+ 
+!*** pres ACE/ACED/ACP/ACPD ***
+scalar wmain set 1.25 select  type HY* end
+scalar wcomp set 0.85 select  type HY* end
+scalar wmain set 1.9 select  type CAY end
+scalar wcomp set 0.72 select  type CAY end
+scalar wmain set 1.875 select  type CY end
+scalar wcomp set 0.72 select  type CY end
+scalar wmain set 1.48 select  type OY end
+scalar wcomp set 0.85 select  type OY end
+ 
+!*** PROP ***
+define prop select type  hn2 .or. type hn1 end    ! look for prop
+define prop select prop .and. type hn1 end                 ! Number of N-termini
+set nNP = ?nsel
+set ncnt = 0
+label doNP
+      set thisNP = ?selires
+      scalar wmain set 1.625 select ires @thisNP .and. type n end
+      scalar wcomp set 0.79 select ires @thisNP .and. type n end
+      scalar wmain set 1.15 select ires @thisNP .and. type hn* end
+      scalar wcomp set 0.85 select ires @thisNP .and. type hn* end
+      define prop select prop .and. .not. ires @thisNP end
+      incr ncnt by 1
+if @ncnt .le. @nNP goto doNP
+ 
+!*** pres NTER/NNEU/GLYP ***
+define nter select (type  ht*) .and. .not. -! look for N-termini
+            (type ct) end                                  ! ct1
+define nter select nter .and. type ht1 end                 ! Number of N-termini
+set nNT = ?nsel
+set ncnt = 0
+label doNT
+      set thisNT = ?selires
+      scalar wmain set 1.625 select ires @thisNT .and. type n end
+      scalar wcomp set 0.79 select ires @thisNT .and. type n end
+      scalar wmain set 1.15 select ires @thisNT .and. type ht* end
+      scalar wcomp set 0.85 select ires @thisNT .and. type ht* end
+      define nter select nter .and. .not. ires @thisNT end
+      incr ncnt by 1
+if @ncnt .le. @nNT goto doNT
+ 
+!*** pres CTER ***
+define cter select (type  ot1 .or. type ot2) .and. .not. - ! look for C-termini
+            (type ht2 .or. -                               ! nneu
+            (type ct .or. type ht*) ) end                 ! ct1
+define cter select cter .and. type ot1 end                 ! Number of C-termini
+set nCT = ?nsel
+set ncnt = 0
+label doCT
+      set thisCT = ?selires
+      scalar wmain set 1.48 select ires @thisCT .and. type ot* end
+      scalar wcomp set 0.85 select ires @thisCT .and. type ot* end
+      define cter select cter .and. .not. ires @thisCT end
+      incr ncnt by 1
+if @ncnt .le. @nCT goto doCT
+ 
+!*** pres CNEU ***
+define cneu select .byres. ( (type  ot1 .or. type ot2) .and. .not. - ! look for C-termini
+            (type ct) )show end                                  ! ct1
+define cneu select type ht2 .and. cneu end                 ! Number of CNEU-termini
+set nCN = ?nsel
+set ncnt = 0
+label doCN
+      set thisCN = ?selires
+      scalar wmain set 1.535 select ires @thisCN .and. type ot2 end
+      scalar wmain set 1.25 select ires @thisCN .and. type ht2 end
+      scalar wcomp set 0.85 select ires @thisCN .and. type ht2 end
+      define cneu select cneu .and. .not. ires @thisCN end
+      incr ncnt by 1
+if @ncnt .le. @nCN goto doCN
+ 
+!*** pres CT1 ***
+define ct1 select .byres. ((type  ot1 .or. type ot2) .or.       - ! look for CT1
+            (type ct .or. type ht*) ) end                   ! ct1
+define ct1 select ct1 .and. type ct end                 ! Number of C-termini
+set nCT = ?nsel
+set ncnt = 0
+label doCT1
+      set thisCT = ?selires
+      scalar wmain set 1.48 select ires @thisCT .and. type ot1 end
+      scalar wmain set 1.535 select ires @thisCT .and. type ot2 end
+      scalar wcomp set 0.85 select ires @thisCT .and. type ot* end
+      scalar wmain set 1.9 select ires @thisCT .and. type ct end
+      scalar wcomp set 0.72 select ires @thisCT .and. type ct end
+      scalar wmain set 1.25 select ires @thisCT .and. type ht* end
+      scalar wcomp set 0.85 select ires @thisCT .and. type ht* end
+      define ct1 select ct1 .and. .not. ires @thisCT end
+      incr ncnt by 1
+if @ncnt .le. @nCT goto doCT1
+ 
+!*** pres CT2 ***
+define ct2 select .byres. ( (type  nt .or. type ht*)             - ! look for CT2
+        .and. .not. type cat ) end                          ! ct2
+define ct2 select ct2 .and. type nt end                   ! Number of CT2
+set nCT = ?nsel
+set ncnt = 0
+label doCT2
+      set thisCT = ?selires
+      scalar wmain set 1.625 select ires @thisCT .and. type nt end
+      scalar wcomp set 0.79 select ires @thisCT .and. type nt end
+      scalar wmain set 1.15 select ires @thisCT .and. type ht* end
+      scalar wcomp set 0.85 select ires @thisCT .and. type ht* end
+      define ct2 select ct2 .and. .not. ires @thisCT end
+      incr ncnt by 1
+if @ncnt .le. @nCT goto doCT2
+ 
+!*** pres CT3 ***
+define ct3 select .byres. ( (type  nt .or. type ht*)             - ! look for CT3
+        .or. type cat ) end                                ! ct3
+define ct3 select ct3 .and. type nt end                   ! Number of CT3
+set nCT = ?nsel
+set ncnt = 0
+label doCT3
+      set thisCT = ?selires
+      scalar wmain set 1.625 select ires @thisCT .and. type nt end
+      scalar wcomp set 0.79 select ires @thisCT .and. type nt end
+      scalar wmain set 1.15 select ires @thisCT .and. type hnt* end
+      scalar wcomp set 0.85 select ires @thisCT .and. type hnt* end
+      scalar wmain set 1.9 select ires @thisCT .and. type cat end
+      scalar wcomp set 0.72 select ires @thisCT .and. type cat end
+      scalar wmain set 1.25 select ires @thisCT .and. type ht* end
+      scalar wcomp set 0.85 select ires @thisCT .and. type ht* end
+      define ct3 select ct3 .and. .not. ires @thisCT end
+      incr ncnt by 1
+if @ncnt .le. @nCT goto doCT3
+ 
+!*** Look for ASPP patches ***
+define aspP select resname asp .and. type hd2 end
+set nDH = ?nsel
+set ncnt = 0
+define aspP select none end
+label doDH
+      define thisOne select resname asp .and. type hd2 .and. .not. aspP end
+      set thisDH = ?selires
+      scalar wmain set 1.535 select ires @thisDH .and. type OD2 end
+      scalar wcomp set 0.85 select ires @thisDH .and. type OD2 end
+      scalar wmain set 1.05 select ires @thisDH .and. type HD2 end
+      scalar wcomp set 0.85 select ires @thisDH .and. type HD2 end
+      define aspP select aspP .or. ires @thisDH end
+      incr ncnt by 1
+if @ncnt .le. @nDH goto doDH
+ 
+!*** Look for GLUP patches ***
+define gluP select resname glu .and. type he2 end
+set nEH = ?nsel
+set ncnt = 0
+define gluP select none end
+label doEH
+      define thisOne select resname glu .and. type he2 .and. .not. gluP end
+      set thisEH = ?selires
+      scalar wmain set 1.535 select ires @thisEH .and. type OE2 end
+      scalar wcomp set 0.85 select ires @thisEH .and. type OE2 end
+      scalar wmain set 1.05 select ires @thisEH .and. type HE2 end
+      scalar wcomp set 0.85 select ires @thisEH .and. type HE2 end
+      define gluP select gluP .or. ires @thisEH end
+      incr ncnt by 1
+if @ncnt .le. @nEH goto doEH
+ 
+!*** pres LSN ***
+define lsn select (type nz .or. type  hz*) .and. .not. -! look for neutral K
+            (type hz3) end                               ! K
+define lsn select lsn .and. type nz end                 ! Number of neutral K
+set nNK = ?nsel
+set ncnt = 0
+label doNK
+      set thisNK = ?selires
+      scalar wmain set 1.625 select ires @thisNK .and. type nz end
+      scalar wcomp set 0.79 select ires @thisNK .and. type nz end
+      scalar wmain set 1.15 select ires @thisNK .and. type hz* end
+      scalar wcomp set 0.85 select ires @thisNK .and. type hz* end
+      define lsn select lsn .and. .not. ires @thisNK end
+      incr ncnt by 1
+if @ncnt .le. @nNK goto doNK
+! #### Test whether any atoms have not had radii or scale assigned ####
+define missed select property wmain .le. 0 end
+set numns = ?nsel
+define missed select missed .or. property wcomp .le. 0 end
+calc numns = @numns + ?nsel
+
+prnlev 5 @pnode
+
+if @numns .gt. 0 then
+      echo gbsa_obc radii or scale not assigned
+      scalar wmain show select property wmain .le. 0 end
+      scalar wcomp show select property wcomp .le. 0 end
+!      now bomb
+endif
