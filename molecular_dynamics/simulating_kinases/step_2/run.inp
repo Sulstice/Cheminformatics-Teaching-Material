@@ -1,0 +1,102 @@
+* Add H to crystal waters 
+*
+
+! Inputs and Variables
+!-------------------------
+set in  =  water_xray
+set segi = W00A
+set out =  results/step2_h_xwat
+
+set toppar = ../toppar 
+set top = @TOPPAR/top_all22_prot.rtf 
+set par = @TOPPAR/par_all22_prot.prm
+set watstr = @TOPPAR/toppar_water_ions.str
+
+! Read Topology and Parameter Files 
+!----------------------------------
+open read card unit 10 name @top 
+read rtf card unit 10 
+close unit 10 
+
+open read card unit 10 name @par 
+read param card flex unit 10
+close unit 10 
+
+
+! Read Water Input
+!------------------
+stream @watstr
+
+
+! Read Sequence Information
+!---------------------------
+open unit 10 read form name @{in}.pdb 
+read sequ pdb unit 10 
+generate @{segi} setup warn first none last none noangle nodihedral 
+close unit 10
+
+
+! Read Coordinate Information 
+!-----------------------------
+open read card unit 10 name @{in}.pdb 
+read coor pdb unit 10 resid 
+close unit 10 
+
+! Print Heavy Atoms with Unknown Coordinates 
+!--------------------------------------------
+coor print sele ( .not. INIT ) .and. ( .not. hydrogen ) end 
+
+! Build Hydrogen 
+!----------------
+HBuild 
+
+
+!----------------
+! Write Files 
+!-----------------
+open unit 10 write card name @{out}.pdb 
+write coor pdb unit 10 
+close unit 10 
+
+open unit 10 write card name @{out}.psf 
+write psf card unit 10 
+close unit 10 
+
+open unit 10 write card name @{out}.crd 
+write coor card unit 10 
+close unit 10 
+
+stop 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
