@@ -20,19 +20,20 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           architecture: x64
-      - name: Install Bash Requirements
-        run: |
+      # - name: Install Bash Requirements
+      #   run: |
         
-          sudo apt update
-          sudo apt upgrade
-          sudo apt install gcc
-          sudo apt install cmake
-          sudo apt install build-essential
-          sudo apt-get install -y libfftw3-dev
+      #     sudo apt update
+      #     sudo apt upgrade
+      #     sudo apt install gcc
+      #     sudo apt install cmake
+      #     sudo apt install build-essential
+      #     sudo apt-get install -y libfftw3-dev
           
       - name: Install GROMACS Requirements
         run: |
           wget https://ftp.gromacs.org/gromacs/gromacs-2023.3.tar.gz
+          ls
           tar -xfz gromacs-2023.3.tar.gz
           cd gromacs-2023.3
           mkdir build
