@@ -1,4 +1,4 @@
-name: Run Step 1
+name: Install GROMACS
 
 on: [workflow_dispatch]
 
