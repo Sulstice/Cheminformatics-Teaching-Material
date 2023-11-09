@@ -22,14 +22,23 @@ jobs:
           architecture: x64
       - name: Install Bash Requirements
         run: |
-            sudo apt update
-            sudo apt upgrade
-            sudo apt install gcc
-            sudo apt install cmake
-            sudo apt install build-essential
-            sudo apt install libfftw3-dev OR
-            sudo apt-get install -y libfftw3-dev
-      - name: Install GROMACS 
+        
+          sudo apt update
+          sudo apt upgrade
+          sudo apt install gcc
+          sudo apt install cmake
+          sudo apt install build-essential
+          sudo apt-get install -y libfftw3-dev
+          
+      - name: Install GROMACS Requirements
         run: |
-            sudo apt install gromacs
-           
+          wget https://ftp.gromacs.org/gromacs/gromacs-2023.3.tar.gz
+          tar -xfz gromacs-2020.2.tar.gz
+          cd gromacs-2023.3
+          mkdir build
+          cd build
+          cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
+          make
+          make check
+          sudo make install
+          source /usr/local/gromacs/bin/GMXRC
