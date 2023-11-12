@@ -1,15 +1,12 @@
 name: Install GROMACS
 
-on: [workflow_dispatch]
+on:
+  workflow_dispatch
 
 jobs:
   test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: true
-      matrix:
-        os: ["ubuntu-latest"]
-        python-version: ["3.7",]
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
 
     steps:
       - name: Checkout source
@@ -18,22 +15,13 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
-          architecture: x64
-      # - name: Install Bash Requirements
-      #   run: |
-        
-      #     sudo apt update
-      #     sudo apt upgrade
-      #     sudo apt install gcc
-      #     sudo apt install cmake
-      #     sudo apt install build-essential
-      #     sudo apt-get install -y libfftw3-dev
-          
+          python-version: 3.7
+
       - name: Install GROMACS Requirements
         run: |
+          sudo apt-get update
+          sudo apt-get install -y wget
           wget https://ftp.gromacs.org/gromacs/gromacs-2023.3.tar.gz
-          ls gromacs-2023.3.tar.gz
           tar xfz gromacs-2023.3.tar.gz
           cd gromacs-2023.3
           mkdir build
@@ -42,4 +30,6 @@ jobs:
           make 
           make check
           sudo make install
-          source /usr/local/gromacs/bin/GMXRC
+          echo 'source /usr/local/gromacs/bin/GMXRC' >> $HOME/.bashrc
+          source $HOME/.bashrc
+
