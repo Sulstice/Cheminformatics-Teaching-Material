@@ -13,7 +13,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.document_loaders import PyPDFDirectoryLoader
 
-class PhotoswitchLLM(object):
+class ShulginLLM(object):
 
   __OPEN_API_KEY__ = ''
 
@@ -25,7 +25,7 @@ class PhotoswitchLLM(object):
 
   def load_node(self):
 
-    loader = PyPDFDirectoryLoader("pihkal.pdf")
+    loader = PyPDFDirectoryLoader("shulgin.pdf")
     text_loader = loader.load()
 
     return text_loader
@@ -65,9 +65,9 @@ class PhotoswitchLLM(object):
 
 if __name__ == '__main__':
 
-  photoswitch_llm = PhotoswitchLLM()
+  shulgin_llm = ShulginLLM()
 
-  answer = photoswitch_llm.run_question(
+  answer = shulgin_llm.run_question(
     question='how to synthesize 2-(4-Iodo-2,5-dimethoxyphenyl)ethan-1-amine?'
   )
 
