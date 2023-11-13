@@ -1,0 +1,35 @@
+name: Install GROMACS
+
+on:
+  workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: Install GROMACS Requirements
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget
+          wget https://ftp.gromacs.org/gromacs/gromacs-2023.3.tar.gz
+          tar xfz gromacs-2023.3.tar.gz
+          cd gromacs-2023.3
+          mkdir build
+          cd build
+          cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
+          make 
+          make check
+          sudo make install
+          echo 'source /usr/local/gromacs/bin/GMXRC' >> $HOME/.bashrc
+          source $HOME/.bashrc
+

@@ -171,6 +171,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Calculating Density of a Liquid](https://sharifsuliman1.medium.com/calculating-density-of-a-neat-liquid-from-a-molecular-dynamics-simulation-with-namd-d67018e068a7) - Calculating Density of a Neat Liquid from a Molecular Dynamics Simulation with NAMD 
 - [Constant Pressure and Temperature Control](https://sharifsuliman1.medium.com/maintaining-constant-pressure-and-temperature-in-namd-7c2c734146dd) - Maintaining Constant Pressure and Temperature in NAMD.
 - [Part 1: Simulating Kinases with CHARMM and Amber](https://sharifsuliman.medium.com/part-1-molecular-dynamics-simulating-kinases-using-charmm-and-amber-b26b6d6e8fd5) - Part 1 Molecular Dynamics: Simulating Kinases using CHARMM and Amber
+- [Part 2: Simulating Kinases with CHARMM and Amber](https://sharifsuliman.medium.com/part-2-simulating-kinases-with-charmm-and-amber-retaining-water-e7fd7cc8bbe8) - Part 2 Molecular Dynamics: Retaining Water in the Crystal Structure. 
 
 ## Machine Learning
 
