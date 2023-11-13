@@ -189,6 +189,7 @@ These materials are designed with the idea that the student needing them has a w
 # Large Language Models
 
 - [GlobalChem Language with ChatGPT](https://medium.com/@sharifsuliman/combining-chemical-languages-with-chatgpt-using-large-language-models-llms-part-1-1a30adb8eebf) - Combining Chemical Languages with ChatGPT using Large Language Models (LLMs) Part 1
+- [Alexander Shulgin LLM](https://sharifsuliman.medium.com/resurrecting-the-dead-alexander-shulgin-large-language-model-agent-with-langchain-55417f235b56) - Resurrecting the Dead: Alexander Shulgin Large Language Model Agent with Langchain
 
 ## Force Fields
 
