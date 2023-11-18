@@ -1,18 +1,18 @@
-name: Install GROMACS
+name: Run GROMACS Simulations
 
 on:
   workflow_dispatch
 
 jobs:
-  test:
+  simulate:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240  
 
     steps:
       - name: Checkout source
         uses: actions/checkout@v2
 
-      - name: Setup python
+      - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
@@ -32,4 +32,34 @@ jobs:
           sudo make install
           echo 'source /usr/local/gromacs/bin/GMXRC' >> $HOME/.bashrc
           source $HOME/.bashrc
+
+      - name: Prepare Input Files
+        run: |
+          cp simulation/input_files/NVT.mdp .
+          cp simulation/input_files/NPT.mdp .
+          cp simulation/input_files/MD.mdp .
+          cp simulation/input_files/EM.gro .
+          cp simulation/input_files/topol.top .
+          cp simulation/input_files/index.ndx .
+
+      - name: Run NVT Simulation
+        run: |
+          gmx grompp -f NVT.mdp -c EM.gro -r EM.gro -p topol.top -n index.ndx -maxwarn 2 -o NVT.tpr
+          gmx mdrun -deffnm NVT
+
+      - name: Run NPT Simulation
+        run: |
+          gmx grompp -f NPT.mdp -c NVT.gro -r NVT.gro -p topol.top -n index.ndx -maxwarn 2 -o NPT.tpr
+          gmx mdrun -deffnm NPT
+
+      - name: Run MD Simulation
+        run: |
+          gmx grompp -f MD.mdp -c NPT.gro -t NPT.cpt -p topol.top -n index.ndx -maxwarn 2 -o MD.tpr
+          gmx mdrun -deffnm MD
+
+      - name: Archive Simulation Output
+        uses: actions/upload-artifact@v2
+        with:
+          name: simulation-results
+          path: ./*.{edr,log,trr,tpr,xtc,xvg}
 
