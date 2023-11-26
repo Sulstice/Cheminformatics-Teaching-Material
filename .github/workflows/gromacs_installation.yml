@@ -6,7 +6,7 @@ on:
 jobs:
   simulate:
     runs-on: ubuntu-latest
-    timeout-minutes: 240  
+    timeout-minutes: 300  # Increased timeout to 300 minutes
 
     steps:
       - name: Checkout source
@@ -57,9 +57,16 @@ jobs:
           gmx grompp -f MD.mdp -c NPT.gro -t NPT.cpt -p topol.top -n index.ndx -maxwarn 2 -o MD.tpr
           gmx mdrun -deffnm MD
 
+      - name: Capture Simulation Logs
+        run: |
+          cat NVT.log
+          cat NPT.log
+          cat MD.log
+
       - name: Archive Simulation Output
         uses: actions/upload-artifact@v2
         with:
           name: simulation-results
           path: ./*.{edr,log,trr,tpr,xtc,xvg}
+
 
