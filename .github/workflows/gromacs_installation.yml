@@ -29,10 +29,11 @@ jobs:
           cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
           make 
           # Exclude the problematic test
-          ctest -j $(nproc) -E MdrunTestsTwoRanks --output-on-failure || true
+          ctest -j $(nproc) -E MdrunTestsTwoRanks --output-on-failure || true #workflow continues even if the test fails
           sudo make install
           echo 'source /usr/local/gromacs/bin/GMXRC' >> $HOME/.bashrc
           source $HOME/.bashrc
+          export PATH="/usr/local/gromacs/bin:$PATH"  # Added this line to add GROMACS to PATH
 
       - name: Prepare Input Files
         run: |
