@@ -1,5 +1,3 @@
-name: Run GROMACS Simulations
-
 on:
   workflow_dispatch
 
@@ -28,8 +26,7 @@ jobs:
           cd build
           cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
           make 
-          # Exclude the problematic test
-          ctest -j $(nproc) -E MdrunTestsTwoRanks --rerun-failed --output-on-failure
+          make check
           sudo make install
           echo 'source /usr/local/gromacs/bin/GMXRC' >> $HOME/.bashrc
           source $HOME/.bashrc
