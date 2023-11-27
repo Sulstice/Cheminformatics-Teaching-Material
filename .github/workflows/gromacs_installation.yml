@@ -6,7 +6,7 @@ on:
 jobs:
   simulate:
     runs-on: ubuntu-latest
-    timeout-minutes: 300  # Increased timeout to 300 minutes
+    timeout-minutes: 240  
 
     steps:
       - name: Checkout source
@@ -29,7 +29,7 @@ jobs:
           cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
           make 
           # Exclude the problematic test
-          ctest -j $(nproc) -E MdrunTestsTwoRanks
+          ctest -j $(nproc) -E MdrunTestsTwoRanks --rerun-failed --output-on-failure
           sudo make install
           echo 'source /usr/local/gromacs/bin/GMXRC' >> $HOME/.bashrc
           source $HOME/.bashrc
