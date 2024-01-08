@@ -146,6 +146,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Converting CSV/TSV to RDF](https://sharifsuliman.medium.com/converting-your-knowledge-graph-tsv-csv-to-a-resource-description-framework-rdf-for-e3e7305519bd) - Converting your Knowledge Graph TSV/CSV to a Resource Description Framework (RDF) For Interoperability
 - [Partial Charge Fingerprints](https://sharifsuliman.medium.com/partial-charge-fingerprints-5a763b736d72) - Partial Charged Fingerprints
 - [Uploading Chemical Data to Wikidata](https://sharifsuliman.medium.com/uploading-structured-chemical-data-to-wikidata-32126847a18) - Uploading Structured Chemical Data to Wikidata
+- [Chemical Composition of Holy Water](https://sharifsuliman.medium.com/chemical-composition-of-holy-water-74c13ac90c6c) - Chemical Composition of Holy Water
 
 ## Medicinal Chemistry
 
