@@ -218,6 +218,10 @@ These materials are designed with the idea that the student needing them has a w
 - [Hosting Websites](https://sharifsuliman1.medium.com/how-i-host-websites-for-12-yr-c0fb0e37184c) - How to Host Static Websites for Cheap. 
 - [Cloud Development for Academic Labs](https://sharifsuliman1.medium.com/implementing-github-code-spaces-for-an-academic-lab-45b920757296) - Implementing Github Code spaces for an Academic Lab. 
 
+## Question and Answer
+
+- [Hair Falling Out](https://sharifsuliman.medium.com/female-chemistry-question-how-to-stop-a-lot-of-my-hair-falling-out-of-the-shower-bfe0e17dd8b3) - Female Chemistry Question: How to stop a lot of my hair falling out of the shower.
+
 ## Lifestyle
 
 - [Looking For Love](https://medium.com/@sulstice/looking-for-love-at-the-airport-f410431dcbb3) - Looking for Love at the Airport
