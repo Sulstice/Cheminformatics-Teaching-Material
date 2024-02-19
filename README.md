@@ -147,6 +147,8 @@ These materials are designed with the idea that the student needing them has a w
 - [Partial Charge Fingerprints](https://sharifsuliman.medium.com/partial-charge-fingerprints-5a763b736d72) - Partial Charged Fingerprints
 - [Uploading Chemical Data to Wikidata](https://sharifsuliman.medium.com/uploading-structured-chemical-data-to-wikidata-32126847a18) - Uploading Structured Chemical Data to Wikidata
 - [Chemical Composition of Holy Water](https://sharifsuliman.medium.com/chemical-composition-of-holy-water-74c13ac90c6c) - Chemical Composition of Holy Water
+- [Converting List of IUPAC names to SMILES](https://sharifsuliman.medium.com/converting-a-list-of-iupac-names-to-smiles-50745c6fe251) - Converting a List of IUPAC names to SMILES
+
 
 ## Medicinal Chemistry
 
