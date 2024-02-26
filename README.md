@@ -189,6 +189,8 @@ These materials are designed with the idea that the student needing them has a w
 - [Newick Trees](https://sharifsuliman1.medium.com/learning-a-newick-tree-6fdb8ead9389) - A Newick Tree for Protein Families and Relations
 - [Neo4J GraphDatabases](https://sharifsuliman1.medium.com/part-1-connecting-globalchem-knowledge-graph-to-neo4j-graph-database-f613ba67da77) - Part 1 — Connecting GlobalChem Knowledge Graph to Neo4j Graph Database 
 - [Convolutional Neural Network for Cannabis](https://sharifsuliman.medium.com/designing-a-convolutional-neural-network-for-cannabis-machine-learning-part-1-e5a2d8f667af) - Designing a Convolutional Neural Network For Cannabis Machine Learning Part 1
+- [Non-Linear Optimization Problems](https://sharifsuliman.medium.com/an-assignment-for-optimizing-non-linear-functions-to-machine-learning-students-4fe6ae4cc856) - An Assignment For Optimizing Non-Linear Functions to Machine Learning Students
+
 
 # Large Language Models
 
