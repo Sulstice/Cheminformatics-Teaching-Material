@@ -149,7 +149,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Uploading Chemical Data to Wikidata](https://sharifsuliman.medium.com/uploading-structured-chemical-data-to-wikidata-32126847a18) - Uploading Structured Chemical Data to Wikidata
 - [Chemical Composition of Holy Water](https://sharifsuliman.medium.com/chemical-composition-of-holy-water-74c13ac90c6c) - Chemical Composition of Holy Water
 - [Converting List of IUPAC names to SMILES](https://sharifsuliman.medium.com/converting-a-list-of-iupac-names-to-smiles-50745c6fe251) - Converting a List of IUPAC names to SMILES
-
+- [Retrosynthesis Artificial Intelligence](https://sharifsuliman.medium.com/retrosynthesis-artificial-intelligence-5fd1120ff615) - Retrosynthesis Artificial Intelligence
 
 ## Medicinal Chemistry
 
