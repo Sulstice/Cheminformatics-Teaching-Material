@@ -150,6 +150,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Chemical Composition of Holy Water](https://sharifsuliman.medium.com/chemical-composition-of-holy-water-74c13ac90c6c) - Chemical Composition of Holy Water
 - [Converting List of IUPAC names to SMILES](https://sharifsuliman.medium.com/converting-a-list-of-iupac-names-to-smiles-50745c6fe251) - Converting a List of IUPAC names to SMILES
 - [Retrosynthesis Artificial Intelligence](https://sharifsuliman.medium.com/retrosynthesis-artificial-intelligence-5fd1120ff615) - Retrosynthesis Artificial Intelligence
+- [Sephora Toxicity Makeup Analysis](https://sharifsuliman.medium.com/looking-at-the-chemicals-inside-sephora-makeup-foundations-for-any-toxic-alerts-f2b5bdba48f5) - Looking at the Chemicals Inside Sephora Makeup Foundations For Any Toxic Alerts
 
 ## Medicinal Chemistry
 
