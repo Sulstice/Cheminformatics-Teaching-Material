@@ -179,6 +179,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Part 1: Simulating Kinases with CHARMM and Amber](https://sharifsuliman.medium.com/part-1-molecular-dynamics-simulating-kinases-using-charmm-and-amber-b26b6d6e8fd5) - Part 1 Molecular Dynamics: Simulating Kinases using CHARMM and Amber
 - [Part 2: Simulating Kinases with CHARMM and Amber](https://sharifsuliman.medium.com/part-2-simulating-kinases-with-charmm-and-amber-retaining-water-e7fd7cc8bbe8) - Part 2 Molecular Dynamics: Retaining Water in the Crystal Structure. 
 - [Running Molecular Dynamic Simulations on Github Actions with GROMACS](https://sharifsuliman.medium.com/running-molecular-dynamic-simulations-on-github-actions-with-gromacs-cea9e5b9de86) - Running Molecular Dynamic Simulations on Github Actions with GROMACS
+- [Hugging Face Cannabis Chat System](https://sharifsuliman.medium.com/a-hugging-face-chat-assistant-to-tell-us-what-are-the-chemicals-inside-of-cannabis-sativa-17471eb45c2d?sk=56799d58987819421b5d655ceee56bbf) - A Hugging Face Chat assistant to tell us what are the chemicals inside of Cannabis Sativa
 
 ## Machine Learning
 
