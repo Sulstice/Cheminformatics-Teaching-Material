@@ -153,6 +153,7 @@ These materials are designed with the idea that the student needing them has a w
 - [Sephora Toxicity Makeup Analysis](https://sharifsuliman.medium.com/looking-at-the-chemicals-inside-sephora-makeup-foundations-for-any-toxic-alerts-f2b5bdba48f5) - Looking at the Chemicals Inside Sephora Makeup Foundations For Any Toxic Alerts
 - [Convert an Image to SMILES](https://sharifsuliman.medium.com/converting-an-image-of-a-molecule-to-smiles-b48ec98e47c5) - Converting an Image of a Molecule to SMILES
 - [Insect Sex Pheromones](https://sharifsuliman.medium.com/exploring-chemical-space-insect-sex-pheromones-6743159f9b87) - Exploring Chemical Space: Insect Sex Pheromones
+- [Convert CAS to SMILES](https://medium.com/@sharifsuliman/convert-a-list-of-cas-numbers-to-smiles-using-pubmed-cirpy-or-a-recurrent-neural-network-0154b74397de)- Convert a list of CAS numbers to SMILES using Pubmed, Cirpy, or a Recurrent Neural Network
 
 ## Medicinal Chemistry
 
