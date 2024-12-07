@@ -27,6 +27,7 @@ These materials are designed with the idea that the student needing them has a w
   - [Machine Learning](#machine-learning)
   - [Large Language Models](#large-language-models)
   - [Force Fields](#force-fields)
+  - [Combustion Mechanics](#combustion-mechanics)
   - [CHARMM Errors](#charmm-errors)
   - [Electronic Record Compliance](#compliance)
   - [Miscellaenous Resources](#miscellaenous-resources)
@@ -212,6 +213,10 @@ These materials are designed with the idea that the student needing them has a w
 - [What are Atom Types](https://sharifsuliman1.medium.com/understanding-atom-types-part-1-the-philosophy-ca8c42d333fe) - How to take the probability density of any set of numbers and make an analysis. 
 - [Atom Types and SMILES to CurlySMILES](https://sharifsuliman1.medium.com/inclusion-of-atom-types-in-force-fields-to-produce-mixed-cxsmiles-cxsmarts-curlysmiles-832d40ff70d) - Inclusion of Atom Types in Force Fields to produce mixed CXSMILES, CXSMARTS, CurlySMILES 
 - [Mixing CGenFF Atom Types with SMILES](https://sharifsuliman1.medium.com/mixing-cgenff-atom-types-to-rdkit-mol2svg-function-and-visualizing-4cd29c2d7122) - Mixing CGenFF Atom Types to RDKit Mol2SVG Function and Visualizing 
+
+## Combustion Mechanics
+
+- [Laminar Flame Speed](https://sharifsuliman.medium.com/laminar-flame-speed-3ff47a4d1981) - Laminar Flame Speed
 
 ## CHARMM Errors
 
